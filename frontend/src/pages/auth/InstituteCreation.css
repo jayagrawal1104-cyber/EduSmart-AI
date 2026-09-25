@@ -1,0 +1,293 @@
+@reference "../../index.css";
+
+.institute-creation-1 {
+  @apply w-4 h-4;
+}
+
+.institute-creation-2 {
+  @apply min-h-screen bg-slate-50;
+}
+
+.institute-creation-3 {
+  @apply bg-white border-b border-slate-200 px-6 py-4;
+}
+
+.institute-creation-4 {
+  @apply max-w-4xl mx-auto flex items-center justify-between;
+}
+
+.institute-creation-5 {
+  @apply flex items-center gap-2;
+}
+
+.institute-creation-6 {
+  @apply w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center;
+}
+
+.institute-creation-7 {
+  @apply w-4 h-4 text-white;
+}
+
+.institute-creation-8 {
+  @apply font-display font-bold text-slate-900;
+}
+
+.institute-creation-9 {
+  @apply text-sm text-slate-500;
+}
+
+.institute-creation-10 {
+  @apply text-blue-600 font-medium hover:underline transition-colors duration-200;
+}
+
+.institute-creation-11 {
+  @apply max-w-4xl mx-auto px-6 py-10;
+}
+
+.institute-creation-12 {
+  @apply mb-8;
+}
+
+.institute-creation-13 {
+  @apply flex items-center gap-2 text-sm text-slate-500 hover:text-slate-700 mb-5 transition-colors duration-200;
+}
+
+.institute-creation-14 {
+  @apply font-display font-bold text-slate-900 text-2xl mb-1;
+}
+
+.institute-creation-15 {
+  @apply text-slate-500 text-sm;
+}
+
+.institute-creation-16 {
+  @apply flex items-center mb-8 overflow-x-auto pb-2;
+}
+
+.institute-creation-17 {
+  @apply flex items-center;
+}
+
+.institute-creation-18 {
+  @apply flex flex-col items-center;
+}
+
+.institute-creation-19 {
+  @apply bg-white rounded-2xl border border-slate-200 shadow-sm;
+}
+
+.institute-creation-20 {
+  @apply p-8;
+}
+
+.institute-creation-21 {
+  @apply font-display font-bold text-slate-900 text-xl mb-1;
+}
+
+.institute-creation-22 {
+  @apply text-slate-500 text-sm mb-7;
+}
+
+.institute-creation-23 {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-5;
+}
+
+.institute-creation-24 {
+  @apply md:col-span-2;
+}
+
+.institute-creation-25 {
+  @apply block text-sm font-medium text-slate-700 mb-1.5;
+}
+
+.institute-creation-26 {
+  @apply text-red-500;
+}
+
+.institute-creation-27 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.institute-creation-28 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white;
+}
+
+.institute-creation-29 {
+  @apply flex justify-end mt-8;
+}
+
+.institute-creation-30 {
+  @apply inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-2.5 rounded-xl text-sm font-semibold hover:bg-blue-700 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.institute-creation-31 {
+  @apply mt-5 bg-blue-50 border border-blue-100 rounded-xl p-4 text-xs text-blue-700;
+}
+
+.institute-creation-32 {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-5 mb-6;
+}
+
+.institute-creation-33 {
+  @apply block text-sm font-medium text-slate-700 mb-2;
+}
+
+.institute-creation-34 {
+  @apply space-y-2 mb-3;
+}
+
+.institute-creation-35 {
+  @apply flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-lg px-3 py-2;
+}
+
+.institute-creation-36 {
+  @apply w-4 h-4 text-green-500 shrink-0;
+}
+
+.institute-creation-37 {
+  @apply text-sm text-slate-700 flex-1;
+}
+
+.institute-creation-38 {
+  @apply text-slate-400 hover:text-red-500 text-xs transition-colors duration-200;
+}
+
+.institute-creation-39 {
+  @apply flex gap-2;
+}
+
+.institute-creation-40 {
+  @apply flex-1 border border-slate-200 rounded-lg py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.institute-creation-41 {
+  @apply bg-slate-100 border border-slate-200 text-slate-700 px-3 py-2 rounded-lg text-sm hover:bg-slate-200 transition-colors duration-200;
+}
+
+.institute-creation-42 {
+  @apply space-y-6;
+}
+
+.institute-creation-43 {
+  @apply flex items-center justify-between mb-2;
+}
+
+.institute-creation-44 {
+  @apply text-sm font-medium text-slate-700;
+}
+
+.institute-creation-45 {
+  @apply text-blue-600 font-bold;
+}
+
+.institute-creation-46 {
+  @apply w-full accent-blue-600;
+}
+
+.institute-creation-47 {
+  @apply flex justify-between text-xs text-slate-400 mt-1;
+}
+
+.institute-creation-48 {
+  @apply text-xs text-slate-400 mt-1;
+}
+
+.institute-creation-49 {
+  @apply space-y-4;
+}
+
+.institute-creation-50 {
+  @apply flex items-center justify-between py-3 border-b border-slate-100;
+}
+
+.institute-creation-51 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.institute-creation-52 {
+  @apply text-xs text-slate-400 mt-0.5;
+}
+
+.institute-creation-53 {
+  @apply p-8 text-center;
+}
+
+.institute-creation-54 {
+  @apply w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center mx-auto mb-5;
+}
+
+.institute-creation-55 {
+  @apply w-8 h-8 text-green-500;
+}
+
+.institute-creation-56 {
+  @apply font-display font-bold text-slate-900 text-2xl mb-2;
+}
+
+.institute-creation-57 {
+  @apply text-slate-500 text-sm mb-8 max-w-md mx-auto;
+}
+
+.institute-creation-58 {
+  @apply max-w-md mx-auto space-y-4 mb-8;
+}
+
+.institute-creation-59 {
+  @apply bg-slate-50 border border-slate-200 rounded-xl p-5;
+}
+
+.institute-creation-60 {
+  @apply text-xs font-semibold text-slate-500 mb-1;
+}
+
+.institute-creation-61 {
+  @apply text-sm font-mono font-bold text-slate-900;
+}
+
+.institute-creation-62 {
+  @apply bg-blue-50 border border-blue-200 rounded-xl p-5;
+}
+
+.institute-creation-63 {
+  @apply text-xs font-semibold text-blue-600 mb-2;
+}
+
+.institute-creation-64 {
+  @apply text-2xl font-mono font-bold text-blue-800 tracking-widest mb-3;
+}
+
+.institute-creation-65 {
+  @apply flex gap-2 justify-center;
+}
+
+.institute-creation-66 {
+  @apply inline-flex items-center gap-1.5 bg-white border border-blue-200 text-blue-700 px-3 py-1.5 rounded-lg text-xs font-medium hover:bg-blue-50 transition-colors duration-200;
+}
+
+.institute-creation-67 {
+  @apply w-3 h-3;
+}
+
+.institute-creation-68 {
+  @apply bg-slate-50 border-2 border-dashed border-slate-300 rounded-xl p-6 flex flex-col items-center gap-3;
+}
+
+.institute-creation-69 {
+  @apply w-28 h-28 bg-white border border-slate-200 rounded-xl flex items-center justify-center relative;
+}
+
+.institute-creation-70 {
+  @apply grid grid-cols-5 gap-0.5 p-2 w-full h-full;
+}
+
+.institute-creation-71 {
+  @apply text-xs font-semibold text-slate-600;
+}
+
+.institute-creation-72 {
+  @apply inline-flex items-center gap-1 bg-white border border-slate-200 text-slate-700 px-3 py-1.5 rounded-lg text-xs font-medium hover:bg-slate-50 transition-colors duration-200;
+}
+
+.institute-creation-73 {
+  @apply inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-3 rounded-xl text-sm font-semibold hover:bg-blue-700 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+}

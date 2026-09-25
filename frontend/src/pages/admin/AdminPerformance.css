@@ -1,0 +1,73 @@
+@reference "../../index.css";
+
+.admin-performance-1 {
+  @apply space-y-6;
+}
+
+.admin-performance-2 {
+  @apply grid grid-cols-2 md:grid-cols-4 gap-4;
+}
+
+.admin-performance-3 {
+  @apply w-4 h-4;
+}
+
+.admin-performance-4 {
+  @apply p-5;
+}
+
+.admin-performance-5 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4;
+}
+
+.admin-performance-6 {
+  @apply space-y-3 mt-2;
+}
+
+.admin-performance-7 {
+  @apply flex items-center justify-between px-3 py-2.5 rounded-lg bg-slate-50;
+}
+
+.admin-performance-8 {
+  @apply flex items-center gap-2;
+}
+
+.admin-performance-9 {
+  @apply w-2.5 h-2.5 rounded-full inline-block;
+}
+
+.admin-performance-10 {
+  @apply text-sm font-medium text-slate-700;
+}
+
+.admin-performance-11 {
+  @apply text-sm font-bold text-slate-900;
+}
+
+.admin-performance-12 {
+  @apply divide-y divide-slate-100 mt-1;
+}
+
+.admin-performance-13 {
+  @apply flex items-center justify-between py-2.5;
+}
+
+.admin-performance-14 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.admin-performance-15 {
+  @apply text-xs text-slate-400;
+}
+
+.admin-performance-16 {
+  @apply text-sm font-bold text-green-600;
+}
+
+.admin-performance-17 {
+  @apply flex items-center gap-2;
+}
+
+.admin-performance-18 {
+  @apply text-sm font-bold text-red-600;
+}

@@ -1,0 +1,221 @@
+@reference "../../index.css";
+
+.student-periodic-tests-1 {
+  @apply p-4;
+}
+
+.student-periodic-tests-2 {
+  @apply flex items-start justify-between gap-3;
+}
+
+.student-periodic-tests-3 {
+  @apply min-w-0;
+}
+
+.student-periodic-tests-4 {
+  @apply flex items-center gap-2 mb-1 flex-wrap;
+}
+
+.student-periodic-tests-5 {
+  @apply text-sm font-semibold text-slate-800 truncate;
+}
+
+.student-periodic-tests-6 {
+  @apply text-xs text-slate-500 truncate;
+}
+
+.student-periodic-tests-7 {
+  @apply text-right shrink-0;
+}
+
+.student-periodic-tests-8 {
+  @apply text-lg font-bold text-red-600;
+}
+
+.student-periodic-tests-9 {
+  @apply text-xs text-slate-400;
+}
+
+.student-periodic-tests-10 {
+  @apply mt-3 space-y-1.5;
+}
+
+.student-periodic-tests-11 {
+  @apply flex items-center justify-between text-xs text-slate-500;
+}
+
+.student-periodic-tests-12 {
+  @apply font-medium text-slate-700;
+}
+
+.student-periodic-tests-13 {
+  @apply text-[11px] text-slate-400;
+}
+
+.student-periodic-tests-14 {
+  @apply mt-3 flex items-start gap-2 bg-red-50 border border-red-100 rounded-lg p-2.5;
+}
+
+.student-periodic-tests-15 {
+  @apply w-3.5 h-3.5 text-red-600 mt-0.5 shrink-0;
+}
+
+.student-periodic-tests-16 {
+  @apply text-[11px] text-red-700;
+}
+
+.student-periodic-tests-17 {
+  @apply mt-3 flex justify-end;
+}
+
+.student-periodic-tests-18 {
+  @apply text-xs font-medium text-blue-600 hover:text-blue-700 inline-flex items-center gap-1 transition-colors duration-200;
+}
+
+.student-periodic-tests-19 {
+  @apply w-3 h-3;
+}
+
+.student-periodic-tests-20 {
+  @apply flex items-start justify-between gap-3 mb-2;
+}
+
+.student-periodic-tests-21 {
+  @apply text-sm font-semibold text-slate-800 mt-1.5 truncate;
+}
+
+.student-periodic-tests-22 {
+  @apply text-lg font-bold text-blue-600;
+}
+
+.student-periodic-tests-23 {
+  @apply text-[10px] text-slate-400;
+}
+
+.student-periodic-tests-24 {
+  @apply space-y-1.5 text-xs text-slate-500;
+}
+
+.student-periodic-tests-25 {
+  @apply flex items-center gap-1.5;
+}
+
+.student-periodic-tests-26 {
+  @apply w-3.5 h-3.5 text-slate-400 shrink-0;
+}
+
+.student-periodic-tests-27 {
+  @apply flex items-start gap-1.5;
+}
+
+.student-periodic-tests-28 {
+  @apply w-3.5 h-3.5 text-slate-400 shrink-0 mt-0.5;
+}
+
+.student-periodic-tests-29 {
+  @apply mt-3 pt-3 border-t border-slate-100 flex items-center justify-between;
+}
+
+.student-periodic-tests-30 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.student-periodic-tests-31 {
+  @apply grid grid-cols-2 lg:grid-cols-4 gap-4;
+}
+
+.student-periodic-tests-32 {
+  @apply w-9 h-9 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-3;
+}
+
+.student-periodic-tests-33 {
+  @apply w-4 h-4;
+}
+
+.student-periodic-tests-34 {
+  @apply text-xl font-bold font-display text-slate-800;
+}
+
+.student-periodic-tests-35 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.student-periodic-tests-36 {
+  @apply w-9 h-9 rounded-lg bg-green-50 text-green-600 flex items-center justify-center mb-3;
+}
+
+.student-periodic-tests-37 {
+  @apply w-9 h-9 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center mb-3;
+}
+
+.student-periodic-tests-38 {
+  @apply w-9 h-9 rounded-lg bg-violet-50 text-violet-600 flex items-center justify-center mb-3;
+}
+
+.student-periodic-tests-39 {
+  @apply text-xl font-bold font-display text-slate-800 truncate;
+}
+
+.student-periodic-tests-40 {
+  @apply flex items-start gap-3 bg-red-50 border border-red-100 rounded-xl p-4;
+}
+
+.student-periodic-tests-41 {
+  @apply w-4 h-4 text-red-600 mt-0.5 shrink-0;
+}
+
+.student-periodic-tests-42 {
+  @apply text-sm font-semibold text-red-800;
+}
+
+.student-periodic-tests-43 {
+  @apply text-xs text-red-600 mt-0.5;
+}
+
+.student-periodic-tests-44 {
+  @apply flex items-center justify-between mb-3;
+}
+
+.student-periodic-tests-45 {
+  @apply text-sm font-semibold text-slate-800;
+}
+
+.student-periodic-tests-46 {
+  @apply grid sm:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+.student-periodic-tests-47 {
+  @apply flex items-center justify-between mb-3 flex-wrap gap-2;
+}
+
+.student-periodic-tests-48 {
+  @apply flex items-center gap-1.5 bg-slate-100 rounded-lg p-1;
+}
+
+.student-periodic-tests-49 {
+  @apply p-10 text-center;
+}
+
+.student-periodic-tests-50 {
+  @apply w-8 h-8 text-slate-300 mx-auto mb-3;
+}
+
+.student-periodic-tests-51 {
+  @apply text-sm font-medium text-slate-600;
+}
+
+.student-periodic-tests-52 {
+  @apply p-5 flex items-center justify-between flex-wrap gap-3;
+}
+
+.student-periodic-tests-53 {
+  @apply flex items-center gap-3;
+}
+
+.student-periodic-tests-54 {
+  @apply w-10 h-10 rounded-xl bg-slate-100 text-slate-600 flex items-center justify-center shrink-0;
+}
+
+.student-periodic-tests-55 {
+  @apply text-xs text-slate-500;
+}

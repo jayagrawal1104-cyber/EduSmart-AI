@@ -1,0 +1,69 @@
+@reference "../../index.css";
+
+.admin-workload-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto w-full flex flex-col gap-4 lg:h-[calc(100vh-3.5rem)] lg:overflow-hidden;
+}
+
+.admin-workload-2 {
+  @apply grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 shrink-0;
+}
+
+.admin-workload-3 {
+  @apply w-5 h-5;
+}
+
+.admin-workload-4 {
+  @apply bg-white border border-slate-200 rounded-xl p-5 shadow-sm flex flex-col min-h-0 overflow-hidden;
+}
+
+.admin-workload-13 {
+  @apply text-sm font-semibold text-slate-900;
+}
+
+.admin-workload-26 {
+  @apply flex-1;
+}
+
+.admin-workload-30 {
+  @apply flex items-center gap-2 mb-3 shrink-0;
+}
+
+.admin-workload-31 {
+  @apply w-4 h-4 text-slate-600;
+}
+
+.admin-workload-32 {
+  @apply space-y-2 flex-1 min-h-0 overflow-y-auto pr-1;
+}
+
+.admin-workload-33 {
+  @apply flex items-center gap-3;
+}
+
+.admin-workload-34 {
+  @apply text-xs text-slate-600 w-32 flex-shrink-0 truncate;
+}
+
+.admin-workload-35 {
+  @apply text-xs font-semibold text-slate-700 w-8 text-right;
+}
+
+.admin-workload-36 {
+  @apply mt-3 pt-3 border-t border-slate-100 shrink-0;
+}
+
+.admin-workload-37 {
+  @apply text-xs font-medium text-blue-600 hover:text-blue-700 transition-colors duration-200;
+}
+
+.admin-workload-38 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4 shrink-0;
+}
+
+.admin-workload-39 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4 flex-1 min-h-0;
+}
+
+.admin-workload-40 {
+  @apply shrink-0 mb-3;
+}

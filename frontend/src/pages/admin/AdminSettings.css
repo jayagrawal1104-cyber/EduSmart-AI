@@ -1,0 +1,121 @@
+@reference "../../index.css";
+
+.admin-settings-1 {
+  @apply flex items-center justify-between gap-4 py-3;
+}
+
+.admin-settings-2 {
+  @apply flex items-start gap-3;
+}
+
+.admin-settings-3 {
+  @apply w-9 h-9 rounded-lg bg-slate-100 text-slate-600 flex items-center justify-center shrink-0;
+}
+
+.admin-settings-4 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.admin-settings-5 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.admin-settings-6 {
+  @apply fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-slate-900 text-white text-sm font-medium px-4 py-3 rounded-lg shadow-lg;
+}
+
+.admin-settings-7 {
+  @apply w-4 h-4 text-green-400;
+}
+
+.admin-settings-8 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.admin-settings-9 {
+  @apply p-5;
+}
+
+.admin-settings-10 {
+  @apply flex items-center gap-2 mb-1;
+}
+
+.admin-settings-11 {
+  @apply w-4 h-4 text-violet-600;
+}
+
+.admin-settings-12 {
+  @apply text-sm font-semibold text-slate-800;
+}
+
+.admin-settings-13 {
+  @apply text-xs text-slate-500 mb-2;
+}
+
+.admin-settings-14 {
+  @apply divide-y divide-slate-100;
+}
+
+.admin-settings-15 {
+  @apply w-4 h-4;
+}
+
+.admin-settings-16 {
+  @apply text-xs text-slate-500 mb-4;
+}
+
+.admin-settings-17 {
+  @apply grid sm:grid-cols-2 gap-4 mb-2;
+}
+
+.admin-settings-18 {
+  @apply sm:col-span-2;
+}
+
+.admin-settings-19 {
+  @apply text-xs text-red-600 mt-1;
+}
+
+.admin-settings-20 {
+  @apply sm:col-span-2 flex justify-end;
+}
+
+.admin-settings-21 {
+  @apply border-t border-slate-100 pt-1;
+}
+
+.admin-settings-22 {
+  @apply grid sm:grid-cols-2 gap-4;
+}
+
+.admin-settings-23 {
+  @apply flex flex-wrap gap-3;
+}
+
+.admin-settings-24 {
+  @apply mt-5 pt-5 border-t border-slate-100;
+}
+
+.admin-settings-25 {
+  @apply flex items-start gap-3 bg-slate-50 border border-slate-100 rounded-lg p-4;
+}
+
+.admin-settings-26 {
+  @apply w-4 h-4 text-slate-500 mt-0.5 shrink-0;
+}
+
+.admin-settings-27 {
+  @apply flex-1;
+}
+
+.admin-settings-28 {
+  @apply text-sm font-semibold text-slate-800;
+}
+
+.admin-settings-29 {
+  @apply text-xs text-slate-500 mt-0.5 mb-3;
+}
+
+.admin-settings-30 {
+  @apply flex justify-end;
+}

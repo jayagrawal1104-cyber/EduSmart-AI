@@ -1,0 +1,165 @@
+@reference "../../index.css";
+
+.admin-courses-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.admin-courses-2 {
+  @apply w-4 h-4;
+}
+
+.admin-courses-3 {
+  @apply bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex flex-wrap gap-3 items-center;
+}
+
+.admin-courses-4 {
+  @apply relative flex-1 min-w-52;
+}
+
+.admin-courses-5 {
+  @apply absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400;
+}
+
+.admin-courses-6 {
+  @apply w-full pl-9 pr-3 py-2 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.admin-courses-7 {
+  @apply border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white;
+}
+
+.admin-courses-8 {
+  @apply text-xs text-slate-400;
+}
+
+.admin-courses-9 {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm overflow-hidden;
+}
+
+.admin-courses-10 {
+  @apply overflow-x-auto;
+}
+
+.admin-courses-11 {
+  @apply w-full text-sm;
+}
+
+.admin-courses-12 {
+  @apply border-b border-slate-100 bg-slate-50;
+}
+
+.admin-courses-13 {
+  @apply text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wide whitespace-nowrap;
+}
+
+.admin-courses-14 {
+  @apply divide-y divide-slate-50;
+}
+
+.admin-courses-15 {
+  @apply hover:bg-slate-50 transition-colors;
+}
+
+.admin-courses-16 {
+  @apply py-3 px-4;
+}
+
+.admin-courses-17 {
+  @apply text-xs font-mono bg-slate-100 px-2 py-0.5 rounded text-slate-700;
+}
+
+.admin-courses-18 {
+  @apply py-3 px-4 font-medium text-slate-900;
+}
+
+.admin-courses-19 {
+  @apply py-3 px-4 text-slate-600;
+}
+
+.admin-courses-20 {
+  @apply flex items-center gap-1 text-slate-700;
+}
+
+.admin-courses-21 {
+  @apply w-3.5 h-3.5 text-slate-400;
+}
+
+.admin-courses-22 {
+  @apply py-3 px-4 text-slate-600 text-xs;
+}
+
+.admin-courses-23 {
+  @apply flex items-center gap-1;
+}
+
+.admin-courses-24 {
+  @apply p-1.5 hover:bg-blue-50 rounded-lg text-slate-400 hover:text-blue-600;
+}
+
+.admin-courses-25 {
+  @apply w-3.5 h-3.5;
+}
+
+.admin-courses-26 {
+  @apply p-1.5 hover:bg-slate-100 rounded-lg text-slate-400 hover:text-slate-600;
+}
+
+.admin-courses-27 {
+  @apply p-1.5 hover:bg-red-50 rounded-lg text-slate-400 hover:text-red-500;
+}
+
+.admin-courses-28 {
+  @apply fixed inset-0 bg-black/40 flex items-center justify-center z-50 p-4;
+}
+
+.admin-courses-29 {
+  @apply bg-white rounded-2xl shadow-xl p-6 max-w-lg w-full;
+}
+
+.admin-courses-30 {
+  @apply flex items-center justify-between mb-5;
+}
+
+.admin-courses-31 {
+  @apply text-base font-semibold text-slate-900;
+}
+
+.admin-courses-32 {
+  @apply p-1.5 hover:bg-slate-100 rounded-lg;
+}
+
+.admin-courses-33 {
+  @apply w-4 h-4 text-slate-500;
+}
+
+.admin-courses-34 {
+  @apply grid grid-cols-2 gap-3;
+}
+
+.admin-courses-35 {
+  @apply col-span-2 sm:col-span-1;
+}
+
+.admin-courses-36 {
+  @apply block text-xs font-medium text-slate-600 mb-1;
+}
+
+.admin-courses-37 {
+  @apply w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.admin-courses-38 {
+  @apply w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white;
+}
+
+.admin-courses-39 {
+  @apply col-span-2;
+}
+
+.admin-courses-40 {
+  @apply w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none;
+}
+
+.admin-courses-41 {
+  @apply flex gap-2 mt-5 justify-end;
+}

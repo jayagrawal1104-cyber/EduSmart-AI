@@ -1,0 +1,221 @@
+@reference "../../index.css";
+
+.aistudy-assistant-1 {
+  @apply w-3.5 h-3.5;
+}
+
+.aistudy-assistant-2 {
+  @apply font-bold text-slate-800 mt-2;
+}
+
+.aistudy-assistant-3 {
+  @apply leading-relaxed;
+}
+
+.aistudy-assistant-4 {
+  @apply border-slate-200 my-2;
+}
+
+.aistudy-assistant-5 {
+  @apply ml-4 text-slate-700;
+}
+
+.aistudy-assistant-6 {
+  @apply h-2;
+}
+
+.aistudy-assistant-7 {
+  @apply leading-relaxed text-slate-700;
+}
+
+.aistudy-assistant-8 {
+  @apply h-[calc(100vh-56px)] flex overflow-hidden;
+}
+
+.aistudy-assistant-9 {
+  @apply flex-1 flex flex-col min-w-0;
+}
+
+.aistudy-assistant-10 {
+  @apply px-6 py-4 bg-white border-b border-slate-200 flex items-center justify-between gap-4;
+}
+
+.aistudy-assistant-11 {
+  @apply flex items-center gap-3;
+}
+
+.aistudy-assistant-12 {
+  @apply w-9 h-9 bg-violet-100 rounded-xl flex items-center justify-center;
+}
+
+.aistudy-assistant-13 {
+  @apply w-5 h-5 text-violet-600;
+}
+
+.aistudy-assistant-14 {
+  @apply flex items-center gap-2;
+}
+
+.aistudy-assistant-15 {
+  @apply text-sm font-semibold text-slate-900;
+}
+
+.aistudy-assistant-16 {
+  @apply text-xs text-slate-500;
+}
+
+.aistudy-assistant-17 {
+  @apply relative shrink-0;
+}
+
+.aistudy-assistant-18 {
+  @apply flex items-center gap-2 border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white cursor-pointer hover:border-blue-400;
+}
+
+.aistudy-assistant-19 {
+  @apply w-3.5 h-3.5 text-slate-400;
+}
+
+.aistudy-assistant-20 {
+  @apply text-sm text-slate-700 font-medium bg-transparent focus:outline-none pr-6 cursor-pointer;
+}
+
+.aistudy-assistant-21 {
+  @apply flex-1 overflow-y-auto px-6 py-6 space-y-6 bg-[#F8FAFC];
+}
+
+.aistudy-assistant-22 {
+  @apply w-7 h-7 rounded-full bg-violet-100 flex items-center justify-center mr-2.5 shrink-0 mt-1;
+}
+
+.aistudy-assistant-23 {
+  @apply w-3.5 h-3.5 text-violet-600;
+}
+
+.aistudy-assistant-24 {
+  @apply space-y-1;
+}
+
+.aistudy-assistant-25 {
+  @apply mt-2 flex flex-wrap gap-2;
+}
+
+.aistudy-assistant-26 {
+  @apply flex items-center gap-1 text-[11px] text-slate-500 bg-slate-100 rounded-full px-2.5 py-1;
+}
+
+.aistudy-assistant-27 {
+  @apply w-2.5 h-2.5;
+}
+
+.aistudy-assistant-28 {
+  @apply flex items-start gap-2.5;
+}
+
+.aistudy-assistant-29 {
+  @apply w-7 h-7 rounded-full bg-violet-100 flex items-center justify-center shrink-0;
+}
+
+.aistudy-assistant-30 {
+  @apply bg-white border border-slate-200 rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm;
+}
+
+.aistudy-assistant-31 {
+  @apply flex items-center gap-1.5;
+}
+
+.aistudy-assistant-32 {
+  @apply w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce;
+}
+
+.aistudy-assistant-33 {
+  @apply px-6 pt-3 bg-white border-t border-slate-100 flex flex-wrap gap-2;
+}
+
+.aistudy-assistant-34 {
+  @apply flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-slate-200 text-xs font-medium text-slate-600 hover:border-blue-400 hover:text-blue-600 hover:bg-blue-50 transition-colors;
+}
+
+.aistudy-assistant-35 {
+  @apply px-6 py-4 bg-white;
+}
+
+.aistudy-assistant-36 {
+  @apply flex items-end gap-3;
+}
+
+.aistudy-assistant-37 {
+  @apply flex-1 bg-slate-50 border border-slate-200 rounded-2xl flex items-end gap-2 px-4 py-3 focus-within:border-blue-400 focus-within:bg-white transition-colors;
+}
+
+.aistudy-assistant-38 {
+  @apply flex-1 bg-transparent text-sm text-slate-900 placeholder:text-slate-400 resize-none focus:outline-none max-h-32;
+}
+
+.aistudy-assistant-39 {
+  @apply p-1 text-slate-400 hover:text-slate-600;
+}
+
+.aistudy-assistant-40 {
+  @apply w-4 h-4;
+}
+
+.aistudy-assistant-41 {
+  @apply w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors shrink-0;
+}
+
+.aistudy-assistant-42 {
+  @apply text-[10px] text-slate-400 text-center mt-2;
+}
+
+.aistudy-assistant-43 {
+  @apply hidden xl:flex w-72 flex-col bg-white border-l border-slate-200;
+}
+
+.aistudy-assistant-44 {
+  @apply px-4 py-4 border-b border-slate-100;
+}
+
+.aistudy-assistant-45 {
+  @apply text-sm font-semibold text-slate-900 font-display;
+}
+
+.aistudy-assistant-46 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.aistudy-assistant-47 {
+  @apply flex-1 overflow-y-auto px-4 py-4 space-y-4;
+}
+
+.aistudy-assistant-48 {
+  @apply text-xs font-semibold text-slate-500 uppercase tracking-wide mb-2;
+}
+
+.aistudy-assistant-49 {
+  @apply space-y-1.5;
+}
+
+.aistudy-assistant-50 {
+  @apply text-xs text-left text-slate-700 hover:text-blue-600 hover:underline w-full leading-relaxed;
+}
+
+.aistudy-assistant-51 {
+  @apply px-4 py-3 border-t border-slate-100;
+}
+
+.aistudy-assistant-52 {
+  @apply bg-violet-50 rounded-xl p-3;
+}
+
+.aistudy-assistant-53 {
+  @apply flex items-center gap-2 mb-1;
+}
+
+.aistudy-assistant-54 {
+  @apply text-xs font-semibold text-violet-800;
+}
+
+.aistudy-assistant-55 {
+  @apply block text-xs text-violet-700 hover:text-violet-900 py-1 w-full text-left;
+}

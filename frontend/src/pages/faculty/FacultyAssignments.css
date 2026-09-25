@@ -1,0 +1,277 @@
+@reference "../../index.css";
+
+.faculty-assignments-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.faculty-assignments-2 {
+  @apply flex items-start justify-between gap-4;
+}
+
+.faculty-assignments-3 {
+  @apply text-xl font-bold text-slate-900 font-display;
+}
+
+.faculty-assignments-4 {
+  @apply text-sm text-slate-500 mt-0.5;
+}
+
+.faculty-assignments-5 {
+  @apply bg-violet-600 hover:bg-violet-700 border-violet-600 text-white;
+}
+
+.faculty-assignments-6 {
+  @apply w-4 h-4;
+}
+
+.faculty-assignments-7 {
+  @apply flex items-center gap-1 p-1 bg-slate-100 rounded-xl w-fit;
+}
+
+.faculty-assignments-8 {
+  @apply space-y-4;
+}
+
+.faculty-assignments-9 {
+  @apply overflow-hidden;
+}
+
+.faculty-assignments-10 {
+  @apply p-5;
+}
+
+.faculty-assignments-11 {
+  @apply flex-1 min-w-0;
+}
+
+.faculty-assignments-12 {
+  @apply flex items-center gap-2 flex-wrap;
+}
+
+.faculty-assignments-13 {
+  @apply text-base font-semibold text-slate-800;
+}
+
+.faculty-assignments-14 {
+  @apply text-sm text-slate-500 mt-1;
+}
+
+.faculty-assignments-15 {
+  @apply text-slate-400 hover:text-slate-600 p-1 rounded;
+}
+
+.faculty-assignments-16 {
+  @apply grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4;
+}
+
+.faculty-assignments-17 {
+  @apply bg-blue-50 rounded-lg p-3 text-center;
+}
+
+.faculty-assignments-18 {
+  @apply text-lg font-bold text-blue-700;
+}
+
+.faculty-assignments-19 {
+  @apply text-xs text-slate-500;
+}
+
+.faculty-assignments-20 {
+  @apply bg-amber-50 rounded-lg p-3 text-center;
+}
+
+.faculty-assignments-21 {
+  @apply text-lg font-bold text-amber-700;
+}
+
+.faculty-assignments-22 {
+  @apply bg-red-50 rounded-lg p-3 text-center;
+}
+
+.faculty-assignments-23 {
+  @apply text-lg font-bold text-red-600;
+}
+
+.faculty-assignments-24 {
+  @apply bg-green-50 rounded-lg p-3 text-center;
+}
+
+.faculty-assignments-25 {
+  @apply text-lg font-bold text-green-700;
+}
+
+.faculty-assignments-26 {
+  @apply border-t border-slate-100 p-5 bg-slate-50/50;
+}
+
+.faculty-assignments-27 {
+  @apply flex flex-wrap items-center gap-2;
+}
+
+.faculty-assignments-28 {
+  @apply w-3.5 h-3.5;
+}
+
+.faculty-assignments-29 {
+  @apply space-y-5;
+}
+
+.faculty-assignments-30 {
+  @apply grid grid-cols-1 lg:grid-cols-3 gap-5;
+}
+
+.faculty-assignments-31 {
+  @apply text-sm font-semibold text-slate-800 leading-tight;
+}
+
+.faculty-assignments-32 {
+  @apply text-xs text-slate-400 mt-0.5;
+}
+
+.faculty-assignments-33 {
+  @apply mt-4 space-y-3;
+}
+
+.faculty-assignments-34 {
+  @apply flex items-center justify-between text-xs text-slate-500 mb-1;
+}
+
+.faculty-assignments-35 {
+  @apply font-medium;
+}
+
+.faculty-assignments-36 {
+  @apply mt-4 grid grid-cols-2 gap-2 text-center;
+}
+
+.faculty-assignments-37 {
+  @apply bg-slate-50 rounded-lg p-2;
+}
+
+.faculty-assignments-38 {
+  @apply text-sm font-bold text-slate-700;
+}
+
+.faculty-assignments-39 {
+  @apply text-xs text-slate-400;
+}
+
+.faculty-assignments-40 {
+  @apply p-3 bg-amber-50 border border-amber-200 rounded-xl flex items-start gap-2 mb-5;
+}
+
+.faculty-assignments-41 {
+  @apply w-4 h-4 text-amber-600 mt-0.5 shrink-0;
+}
+
+.faculty-assignments-42 {
+  @apply text-xs text-amber-800;
+}
+
+.faculty-assignments-43 {
+  @apply font-semibold;
+}
+
+.faculty-assignments-44 {
+  @apply hover:bg-slate-50/50;
+}
+
+.faculty-assignments-45 {
+  @apply py-3 px-4;
+}
+
+.faculty-assignments-46 {
+  @apply flex items-center gap-2.5;
+}
+
+.faculty-assignments-47 {
+  @apply w-7 h-7 rounded-full bg-slate-100 flex items-center justify-center text-xs font-semibold text-slate-600;
+}
+
+.faculty-assignments-48 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.faculty-assignments-49 {
+  @apply flex items-center gap-2;
+}
+
+.faculty-assignments-50 {
+  @apply w-20 h-1.5 bg-slate-100 rounded-full overflow-hidden;
+}
+
+.faculty-assignments-51 {
+  @apply py-3 px-4 text-sm text-slate-600;
+}
+
+.faculty-assignments-52 {
+  @apply flex items-center gap-1;
+}
+
+.faculty-assignments-53 {
+  @apply p-1.5 text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors;
+}
+
+.faculty-assignments-54 {
+  @apply p-1.5 text-slate-400 hover:text-violet-600 hover:bg-violet-50 rounded-lg transition-colors;
+}
+
+.faculty-assignments-55 {
+  @apply p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors;
+}
+
+.faculty-assignments-56 {
+  @apply p-1.5 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-lg transition-colors;
+}
+
+.faculty-assignments-57 {
+  @apply fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm p-4;
+}
+
+.faculty-assignments-58 {
+  @apply bg-white rounded-2xl shadow-2xl w-full max-w-lg max-h-[90vh] overflow-y-auto;
+}
+
+.faculty-assignments-59 {
+  @apply flex items-center justify-between p-5 border-b border-slate-100;
+}
+
+.faculty-assignments-60 {
+  @apply text-base font-bold text-slate-900 font-display;
+}
+
+.faculty-assignments-61 {
+  @apply p-1.5 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-lg;
+}
+
+.faculty-assignments-62 {
+  @apply p-5 space-y-4;
+}
+
+.faculty-assignments-63 {
+  @apply block text-sm font-medium text-slate-700 mb-1.5;
+}
+
+.faculty-assignments-64 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 px-3 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent resize-none;
+}
+
+.faculty-assignments-65 {
+  @apply grid grid-cols-2 gap-3;
+}
+
+.faculty-assignments-66 {
+  @apply border-2 border-dashed border-slate-200 rounded-xl p-4 text-center cursor-pointer hover:border-violet-300 hover:bg-violet-50/30 transition-colors;
+}
+
+.faculty-assignments-67 {
+  @apply w-5 h-5 text-slate-400 mx-auto mb-1;
+}
+
+.faculty-assignments-68 {
+  @apply text-sm text-slate-500;
+}
+
+.faculty-assignments-69 {
+  @apply flex items-center justify-end gap-2 p-5 border-t border-slate-100;
+}

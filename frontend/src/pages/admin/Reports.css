@@ -1,0 +1,101 @@
+@reference "../../index.css";
+
+.reports-1 {
+  @apply w-5 h-5;
+}
+
+.reports-2 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto;
+}
+
+.reports-3 {
+  @apply flex items-start justify-between mb-6;
+}
+
+.reports-4 {
+  @apply text-2xl font-bold text-slate-900;
+}
+
+.reports-5 {
+  @apply text-sm text-slate-500 mt-1;
+}
+
+.reports-6 {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8;
+}
+
+.reports-7 {
+  @apply p-5;
+}
+
+.reports-8 {
+  @apply flex items-start gap-4;
+}
+
+.reports-9 {
+  @apply flex-1 min-w-0;
+}
+
+.reports-10 {
+  @apply text-sm font-semibold text-slate-800;
+}
+
+.reports-11 {
+  @apply text-xs text-slate-500 mt-0.5 leading-relaxed;
+}
+
+.reports-12 {
+  @apply mt-4 flex items-center gap-2;
+}
+
+.reports-13 {
+  @apply flex items-center gap-1 bg-slate-50 border border-slate-100 rounded-lg p-0.5;
+}
+
+.reports-14 {
+  @apply w-3 h-3 animate-spin;
+}
+
+.reports-15 {
+  @apply w-3 h-3;
+}
+
+.reports-16 {
+  @apply space-y-3;
+}
+
+.reports-17 {
+  @apply flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-100 hover:bg-blue-50/30 transition-colors;
+}
+
+.reports-18 {
+  @apply w-10 h-10 bg-slate-100 rounded-xl flex items-center justify-center shrink-0;
+}
+
+.reports-19 {
+  @apply w-5 h-5 text-slate-500;
+}
+
+.reports-20 {
+  @apply text-sm font-semibold text-slate-800 truncate;
+}
+
+.reports-21 {
+  @apply flex items-center gap-3 mt-0.5;
+}
+
+.reports-22 {
+  @apply text-xs text-slate-400;
+}
+
+.reports-23 {
+  @apply text-slate-200;
+}
+
+.reports-24 {
+  @apply text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-medium;
+}
+
+.reports-25 {
+  @apply w-3.5 h-3.5;
+}

@@ -1,0 +1,121 @@
+@reference "../../index.css";
+
+.faculty-settings-1 {
+  @apply flex items-center justify-between gap-4 py-3;
+}
+
+.faculty-settings-2 {
+  @apply flex items-start gap-3;
+}
+
+.faculty-settings-3 {
+  @apply w-9 h-9 rounded-lg bg-slate-100 text-slate-600 flex items-center justify-center shrink-0;
+}
+
+.faculty-settings-4 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.faculty-settings-5 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.faculty-settings-6 {
+  @apply fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-slate-900 text-white text-sm font-medium px-4 py-3 rounded-lg shadow-lg;
+}
+
+.faculty-settings-7 {
+  @apply w-4 h-4 text-green-400;
+}
+
+.faculty-settings-8 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.faculty-settings-9 {
+  @apply p-5;
+}
+
+.faculty-settings-10 {
+  @apply flex items-center gap-2 mb-1;
+}
+
+.faculty-settings-11 {
+  @apply w-4 h-4 text-violet-600;
+}
+
+.faculty-settings-12 {
+  @apply text-sm font-semibold text-slate-800;
+}
+
+.faculty-settings-13 {
+  @apply text-xs text-slate-500 mb-2;
+}
+
+.faculty-settings-14 {
+  @apply divide-y divide-slate-100;
+}
+
+.faculty-settings-15 {
+  @apply w-4 h-4;
+}
+
+.faculty-settings-16 {
+  @apply text-xs text-slate-500 mb-4;
+}
+
+.faculty-settings-17 {
+  @apply grid sm:grid-cols-2 gap-4 mb-2;
+}
+
+.faculty-settings-18 {
+  @apply sm:col-span-2;
+}
+
+.faculty-settings-19 {
+  @apply text-xs text-red-600 mt-1;
+}
+
+.faculty-settings-20 {
+  @apply sm:col-span-2 flex justify-end;
+}
+
+.faculty-settings-21 {
+  @apply border-t border-slate-100 pt-1;
+}
+
+.faculty-settings-22 {
+  @apply grid sm:grid-cols-2 gap-4;
+}
+
+.faculty-settings-23 {
+  @apply flex flex-wrap gap-3;
+}
+
+.faculty-settings-24 {
+  @apply mt-5 pt-5 border-t border-slate-100;
+}
+
+.faculty-settings-25 {
+  @apply flex items-start gap-3 bg-red-50 border border-red-100 rounded-lg p-4;
+}
+
+.faculty-settings-26 {
+  @apply w-4 h-4 text-red-600 mt-0.5 shrink-0;
+}
+
+.faculty-settings-27 {
+  @apply flex-1;
+}
+
+.faculty-settings-28 {
+  @apply text-sm font-semibold text-red-800;
+}
+
+.faculty-settings-29 {
+  @apply text-xs text-red-600 mt-0.5 mb-3;
+}
+
+.faculty-settings-30 {
+  @apply flex justify-end;
+}

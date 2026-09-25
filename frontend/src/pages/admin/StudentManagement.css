@@ -1,0 +1,149 @@
+@reference "../../index.css";
+
+.student-management-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto;
+}
+
+.student-management-2 {
+  @apply flex items-start justify-between mb-6;
+}
+
+.student-management-3 {
+  @apply text-2xl font-bold text-slate-900;
+}
+
+.student-management-4 {
+  @apply text-sm text-slate-500 mt-1;
+}
+
+.student-management-5 {
+  @apply flex items-center gap-2;
+}
+
+.student-management-6 {
+  @apply w-3.5 h-3.5;
+}
+
+.student-management-7 {
+  @apply p-4 mb-5;
+}
+
+.student-management-8 {
+  @apply flex flex-wrap gap-3;
+}
+
+.student-management-9 {
+  @apply flex-1 min-w-48;
+}
+
+.student-management-10 {
+  @apply w-44;
+}
+
+.student-management-11 {
+  @apply w-32;
+}
+
+.student-management-12 {
+  @apply w-36;
+}
+
+.student-management-13 {
+  @apply flex items-center gap-3 bg-blue-50 border border-blue-200 rounded-xl px-4 py-3 mb-4;
+}
+
+.student-management-14 {
+  @apply text-sm font-medium text-blue-800;
+}
+
+.student-management-15 {
+  @apply flex items-center gap-2 ml-auto;
+}
+
+.student-management-16 {
+  @apply px-5 py-4 border-b border-slate-100 flex items-center justify-between;
+}
+
+.student-management-17 {
+  @apply text-sm font-semibold text-slate-700;
+}
+
+.student-management-18 {
+  @apply text-xs text-slate-400;
+}
+
+.student-management-19 {
+  @apply hover:bg-slate-50/50 transition-colors;
+}
+
+.student-management-20 {
+  @apply py-3 px-4;
+}
+
+.student-management-21 {
+  @apply w-4 h-4 rounded border-slate-300 text-blue-600 cursor-pointer;
+}
+
+.student-management-22 {
+  @apply py-3 px-4 font-mono text-xs text-slate-500;
+}
+
+.student-management-23 {
+  @apply flex items-center gap-2.5;
+}
+
+.student-management-24 {
+  @apply w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-violet-500 flex items-center justify-center text-white text-xs font-bold shrink-0;
+}
+
+.student-management-25 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.student-management-26 {
+  @apply py-3 px-4 text-sm text-slate-600;
+}
+
+.student-management-27 {
+  @apply py-3 px-4 text-sm text-slate-600 whitespace-nowrap;
+}
+
+.student-management-28 {
+  @apply flex items-center gap-1;
+}
+
+.student-management-29 {
+  @apply p-1.5 text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors;
+}
+
+.student-management-30 {
+  @apply p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-colors;
+}
+
+.student-management-31 {
+  @apply p-1.5 text-slate-400 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors;
+}
+
+.student-management-32 {
+  @apply p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors;
+}
+
+.student-management-33 {
+  @apply px-5 py-4 border-t border-slate-100 flex items-center justify-between;
+}
+
+.student-management-34 {
+  @apply text-xs text-slate-500;
+}
+
+.student-management-35 {
+  @apply p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg disabled:opacity-40;
+}
+
+.student-management-36 {
+  @apply w-4 h-4;
+}
+
+.student-management-37 {
+  @apply p-1.5 text-slate-600 hover:text-slate-700 hover:bg-slate-100 rounded-lg;
+}

@@ -1,0 +1,238 @@
+@reference "../../index.css";
+
+.faculty-dashboard-1 {
+  @apply w-5 h-5;
+}
+
+.faculty-dashboard-2 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-7;
+}
+
+.faculty-dashboard-3 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.faculty-dashboard-4 {
+  @apply text-slate-500 mt-1 text-sm;
+}
+
+.faculty-dashboard-5 {
+  @apply grid grid-cols-2 lg:grid-cols-4 gap-4;
+}
+.faculty-dashboard-5 > * {
+  animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+.faculty-dashboard-5 > *:nth-child(1) { animation-delay: 0ms; }
+.faculty-dashboard-5 > *:nth-child(2) { animation-delay: 80ms; }
+.faculty-dashboard-5 > *:nth-child(3) { animation-delay: 160ms; }
+.faculty-dashboard-5 > *:nth-child(4) { animation-delay: 240ms; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes wave {
+  0%, 60%, 100% { transform: rotate(0deg); }
+  10%, 30% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  40% { transform: rotate(14deg); }
+}
+.wave-emoji {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave 2.4s ease-in-out infinite;
+}
+
+.faculty-dashboard-6 {
+  @apply w-4 h-4;
+}
+
+.faculty-dashboard-7 {
+  @apply p-5;
+}
+
+.faculty-dashboard-8 {
+  @apply flex flex-wrap gap-3;
+}
+
+.faculty-dashboard-9 {
+  @apply grid grid-cols-1 lg:grid-cols-3 gap-6;
+}
+
+.faculty-dashboard-10 {
+  @apply space-y-3;
+}
+
+.faculty-dashboard-11 {
+  @apply flex items-start gap-3 p-3 border border-brand-100 rounded-xl transition-all duration-300;
+  background-image: linear-gradient(135deg, rgba(59, 110, 247, 0.06) 0%, rgba(124, 58, 237, 0.06) 100%);
+}
+.faculty-dashboard-11:hover {
+  transform: translateX(3px);
+  box-shadow: 0 8px 18px -10px rgba(29, 78, 216, 0.3);
+}
+
+.faculty-dashboard-12 {
+  @apply w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm;
+  background-image: linear-gradient(135deg, #6090fb 0%, #7c3aed 100%);
+}
+
+.faculty-dashboard-13 {
+  @apply text-white text-xs font-semibold;
+}
+
+.faculty-dashboard-14 {
+  @apply flex-1 min-w-0;
+}
+
+.faculty-dashboard-15 {
+  @apply text-sm font-semibold text-slate-800 truncate;
+}
+
+.faculty-dashboard-16 {
+  @apply text-xs text-slate-500;
+}
+
+.faculty-dashboard-17 {
+  @apply flex items-center gap-3 mt-1.5;
+}
+
+.faculty-dashboard-18 {
+  @apply text-xs text-red-600 font-medium;
+}
+
+.faculty-dashboard-19 {
+  @apply text-xs text-slate-400;
+}
+
+.faculty-dashboard-20 {
+  @apply w-4 h-4 text-red-500 shrink-0 mt-0.5;
+}
+
+.faculty-dashboard-21 {
+  @apply mt-4 w-full flex items-center justify-center gap-1.5 text-xs font-medium text-violet-600 hover:text-white py-2 border border-violet-100 rounded-lg transition-all duration-300;
+}
+.faculty-dashboard-21:hover {
+  background-image: linear-gradient(135deg, #7c3aed 0%, #3b6ef7 100%);
+  border-color: transparent;
+  box-shadow: 0 8px 18px -8px rgba(124, 58, 237, 0.45);
+}
+
+.faculty-dashboard-22 {
+  @apply w-3 h-3;
+}
+
+.faculty-dashboard-23 {
+  @apply space-y-2;
+}
+
+.faculty-dashboard-24 {
+  @apply flex items-start gap-3 py-2.5 px-2 -mx-2 rounded-lg border-b border-slate-50 last:border-0 transition-colors duration-200 hover:bg-slate-50/80;
+}
+
+.faculty-dashboard-25 {
+  @apply w-3.5 h-3.5;
+}
+
+.faculty-dashboard-26 {
+  @apply text-sm font-medium text-slate-800 leading-tight;
+}
+
+.faculty-dashboard-27 {
+  @apply text-xs text-slate-400 mt-0.5;
+}
+
+.faculty-dashboard-28 {
+  @apply text-right shrink-0;
+}
+
+.faculty-dashboard-29 {
+  @apply text-xs font-semibold text-slate-600;
+}
+
+.faculty-dashboard-30 {
+  @apply flex items-start gap-3 p-3 rounded-xl border border-slate-100 bg-slate-50/50 transition-all duration-300;
+}
+.faculty-dashboard-30:hover {
+  @apply border-brand-200 bg-brand-50/60;
+  transform: translateX(3px);
+}
+
+.faculty-dashboard-31 {
+  @apply shrink-0 text-right w-20;
+}
+
+.faculty-dashboard-32 {
+  @apply text-xs font-semibold text-slate-700;
+}
+
+.faculty-dashboard-33 {
+  @apply text-[10px] text-slate-400;
+}
+
+.faculty-dashboard-34 {
+  @apply w-px bg-slate-200 self-stretch;
+}
+
+.faculty-dashboard-35 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.faculty-dashboard-36 {
+  @apply flex items-center gap-2 mt-0.5;
+}
+
+.faculty-dashboard-37 {
+  @apply text-xs text-slate-300;
+}
+
+.faculty-dashboard-38 {
+  @apply mt-3 w-full text-xs font-medium text-violet-600 hover:text-white flex items-center justify-center gap-1 py-2 rounded-lg border border-transparent transition-all duration-300;
+}
+.faculty-dashboard-38:hover {
+  background-image: linear-gradient(135deg, #7c3aed 0%, #3b6ef7 100%);
+  box-shadow: 0 8px 18px -8px rgba(124, 58, 237, 0.45);
+}
+
+.faculty-dashboard-39 {
+  @apply text-xs font-medium text-violet-600 hover:text-violet-700;
+}
+
+.faculty-dashboard-40 {
+  @apply hover:bg-slate-50/50 transition-colors;
+}
+
+.faculty-dashboard-41 {
+  @apply py-3 px-4;
+}
+
+.faculty-dashboard-42 {
+  @apply py-3 px-4 text-sm text-slate-500;
+}
+
+.faculty-dashboard-43 {
+  @apply py-3 px-4 text-sm text-slate-700 font-medium;
+}
+
+.faculty-dashboard-44 {
+  @apply flex items-center gap-2;
+}
+
+.faculty-dashboard-45 {
+  @apply text-sm font-semibold text-slate-800;
+}
+
+.faculty-dashboard-46 {
+  @apply text-sm text-slate-700;
+}
+
+.faculty-dashboard-47 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4;
+}

@@ -1,0 +1,241 @@
+@reference "../../index.css";
+
+.student-feedback-1 {
+  @apply flex items-center justify-between py-2;
+}
+
+.student-feedback-2 {
+  @apply text-sm text-slate-700 font-medium;
+}
+
+.student-feedback-3 {
+  @apply flex items-center gap-1;
+}
+
+.student-feedback-4 {
+  @apply focus:outline-none transition-transform hover:scale-110;
+}
+
+.student-feedback-5 {
+  @apply text-xs text-slate-500 ml-2 w-6 text-center font-medium;
+}
+
+.student-feedback-6 {
+  @apply bg-white border border-slate-200 rounded-xl p-12 shadow-sm flex flex-col items-center text-center;
+}
+
+.student-feedback-7 {
+  @apply w-10 h-10 text-slate-300 mb-3;
+}
+
+.student-feedback-8 {
+  @apply text-sm font-semibold text-slate-700;
+}
+
+.student-feedback-9 {
+  @apply text-xs text-slate-400 mt-1 max-w-xs;
+}
+
+.student-feedback-10 {
+  @apply mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-all hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.student-feedback-11 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.student-feedback-12 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.student-feedback-13 {
+  @apply text-slate-500 text-sm mt-1;
+}
+
+.student-feedback-14 {
+  @apply flex items-start gap-3 bg-blue-50 border border-blue-100 rounded-xl p-4;
+}
+
+.student-feedback-15 {
+  @apply w-5 h-5 text-blue-500 shrink-0 mt-0.5;
+}
+
+.student-feedback-16 {
+  @apply text-sm font-semibold text-blue-900;
+}
+
+.student-feedback-17 {
+  @apply text-sm text-blue-700 mt-0.5;
+}
+
+.student-feedback-18 {
+  @apply flex gap-1.5 flex-wrap;
+}
+
+.student-feedback-19 {
+  @apply p-10 flex flex-col items-center text-center;
+}
+
+.student-feedback-20 {
+  @apply w-16 h-16 bg-green-50 rounded-full flex items-center justify-center mb-4;
+}
+
+.student-feedback-21 {
+  @apply w-8 h-8 text-green-500;
+}
+
+.student-feedback-22 {
+  @apply text-lg font-bold text-slate-900 font-display;
+}
+
+.student-feedback-23 {
+  @apply text-sm text-slate-500 mt-2 max-w-sm;
+}
+
+.student-feedback-24 {
+  @apply mt-6 flex gap-3;
+}
+
+.student-feedback-25 {
+  @apply grid grid-cols-1 lg:grid-cols-3 gap-6;
+}
+
+.student-feedback-26 {
+  @apply lg:col-span-2 space-y-5;
+}
+
+.student-feedback-27 {
+  @apply p-5 space-y-5;
+}
+
+.student-feedback-28 {
+  @apply block text-sm font-medium text-slate-700 mb-1.5;
+}
+
+.student-feedback-29 {
+  @apply text-red-500;
+}
+
+.student-feedback-30 {
+  @apply relative;
+}
+
+.student-feedback-31 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 pl-3 pr-10 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white appearance-none;
+}
+
+.student-feedback-32 {
+  @apply absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none;
+}
+
+.student-feedback-33 {
+  @apply border border-slate-100 rounded-xl divide-y divide-slate-100;
+}
+
+.student-feedback-34 {
+  @apply px-4;
+}
+
+.student-feedback-35 {
+  @apply px-4 bg-slate-50/50 rounded-b-xl;
+}
+
+.student-feedback-36 {
+  @apply text-slate-400 font-normal;
+}
+
+.student-feedback-37 {
+  @apply w-full border border-slate-200 rounded-lg px-3 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none;
+}
+
+.student-feedback-38 {
+  @apply flex items-center justify-between py-3 px-4 bg-slate-50 rounded-xl;
+}
+
+.student-feedback-39 {
+  @apply flex items-center gap-2;
+}
+
+.student-feedback-40 {
+  @apply w-4 h-4 text-slate-500;
+}
+
+.student-feedback-41 {
+  @apply text-sm font-medium text-slate-700;
+}
+
+.student-feedback-42 {
+  @apply text-xs text-slate-400;
+}
+
+.student-feedback-43 {
+  @apply flex gap-3;
+}
+
+.student-feedback-44 {
+  @apply flex-1;
+}
+
+.student-feedback-45 {
+  @apply text-xs text-slate-400 text-center;
+}
+
+.student-feedback-46 {
+  @apply space-y-5;
+}
+
+.student-feedback-47 {
+  @apply p-5;
+}
+
+.student-feedback-48 {
+  @apply space-y-4;
+}
+
+.student-feedback-49 {
+  @apply border border-slate-100 rounded-xl p-4;
+}
+
+.student-feedback-50 {
+  @apply flex items-start justify-between gap-2 mb-2;
+}
+
+.student-feedback-51 {
+  @apply text-sm font-semibold text-slate-900;
+}
+
+.student-feedback-52 {
+  @apply flex items-center gap-0.5 mb-2;
+}
+
+.student-feedback-53 {
+  @apply text-xs text-slate-500 ml-1;
+}
+
+.student-feedback-54 {
+  @apply blur-sm select-none text-xs text-slate-500 bg-slate-50 rounded p-2;
+}
+
+.student-feedback-55 {
+  @apply text-xs text-slate-600 line-clamp-2;
+}
+
+.student-feedback-56 {
+  @apply text-xs text-slate-400 italic;
+}
+
+.student-feedback-57 {
+  @apply flex items-start gap-3;
+}
+
+.student-feedback-58 {
+  @apply w-8 h-8 bg-violet-50 rounded-lg flex items-center justify-center shrink-0;
+}
+
+.student-feedback-59 {
+  @apply w-4 h-4 text-violet-600;
+}
+
+.student-feedback-60 {
+  @apply text-xs text-slate-500 mt-2 space-y-1.5 list-disc list-inside;
+}

@@ -1,0 +1,125 @@
+@reference "../../index.css";
+
+.faculty-timetable-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.faculty-timetable-2 {
+  @apply flex items-start justify-between flex-wrap gap-4;
+}
+
+.faculty-timetable-3 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.faculty-timetable-4 {
+  @apply text-slate-500 text-sm mt-1;
+}
+
+.faculty-timetable-5 {
+  @apply flex items-center gap-2;
+}
+
+.faculty-timetable-6 {
+  @apply grid grid-cols-2 sm:grid-cols-4 gap-4;
+}
+
+.faculty-timetable-7 {
+  @apply w-4 h-4;
+}
+
+.faculty-timetable-8 {
+  @apply bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex items-center gap-3;
+}
+
+.faculty-timetable-9 {
+  @apply text-lg font-bold text-slate-900 font-display;
+}
+
+.faculty-timetable-10 {
+  @apply text-xs text-slate-500;
+}
+
+.faculty-timetable-11 {
+  @apply flex flex-wrap gap-3 text-xs;
+}
+
+.faculty-timetable-12 {
+  @apply flex gap-1 overflow-x-auto pb-1;
+}
+
+.faculty-timetable-13 {
+  @apply ml-1 text-xs opacity-75;
+}
+
+.faculty-timetable-14 {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm overflow-hidden;
+}
+
+.faculty-timetable-15 {
+  @apply font-semibold text-slate-900 font-display;
+}
+
+.faculty-timetable-16 {
+  @apply divide-y divide-slate-100;
+}
+
+.faculty-timetable-17 {
+  @apply w-20 shrink-0 text-xs text-slate-400 pt-0.5;
+}
+
+.faculty-timetable-18 {
+  @apply flex items-center gap-2 flex-wrap;
+}
+
+.faculty-timetable-19 {
+  @apply flex items-center gap-1 text-xs text-slate-500 mt-1;
+}
+
+.faculty-timetable-20 {
+  @apply w-3 h-3;
+}
+
+.faculty-timetable-21 {
+  @apply flex-1 text-xs text-slate-400 pt-2;
+}
+
+.faculty-timetable-22 {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm overflow-x-auto;
+}
+
+.faculty-timetable-23 {
+  @apply w-full min-w-[700px] text-sm;
+}
+
+.faculty-timetable-24 {
+  @apply border-b border-slate-100;
+}
+
+.faculty-timetable-25 {
+  @apply text-left px-4 py-3 text-xs font-medium text-slate-500 w-20;
+}
+
+.faculty-timetable-26 {
+  @apply ml-1 text-[10px] bg-violet-100 text-violet-600 px-1 py-0.5 rounded;
+}
+
+.faculty-timetable-27 {
+  @apply border-b border-slate-50;
+}
+
+.faculty-timetable-28 {
+  @apply px-4 py-2 text-xs text-slate-400 align-top;
+}
+
+.faculty-timetable-29 {
+  @apply px-4 py-2;
+}
+
+.faculty-timetable-30 {
+  @apply text-[10px] text-slate-500 mt-0.5;
+}
+
+.faculty-timetable-31 {
+  @apply mt-0.5;
+}

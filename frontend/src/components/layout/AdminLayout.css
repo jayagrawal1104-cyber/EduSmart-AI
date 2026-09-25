@@ -1,0 +1,209 @@
+@reference "../../index.css";
+
+.admin-layout-1 {
+  @apply w-4 h-4;
+}
+
+.admin-layout-2 {
+  @apply min-h-screen bg-[#F8FAFC] flex;
+}
+
+.admin-layout-3 {
+  @apply flex items-center gap-3 px-5 py-4 border-b border-white/10;
+}
+
+.admin-layout-4 {
+  @apply w-8 h-8 rounded-lg flex items-center justify-center shadow-md transition-transform duration-300;
+  background-image: linear-gradient(135deg, #7c3aed 0%, #3b6ef7 100%);
+}
+.admin-layout-3:hover .admin-layout-4 {
+  transform: rotate(-6deg) scale(1.06);
+}
+
+.admin-layout-5 {
+  @apply w-5 h-5 text-white;
+}
+
+.admin-layout-6 {
+  @apply flex-1 min-w-0;
+}
+
+.admin-layout-7 {
+  @apply font-bold text-sm leading-none;
+  background-image: linear-gradient(90deg, #ffffff 0%, #bfd3ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.admin-layout-8 {
+  @apply text-white/50 text-[10px] mt-0.5;
+}
+
+.admin-layout-9 {
+  @apply text-[10px] font-semibold bg-violet-600 text-white px-1.5 py-0.5 rounded-full;
+}
+
+.admin-layout-10 {
+  @apply w-9 h-9 rounded-full flex items-center justify-center text-white font-semibold text-sm shrink-0 shadow-sm;
+  background-image: linear-gradient(135deg, #a78bfa 0%, #3b6ef7 100%);
+}
+
+.admin-layout-11 {
+  @apply min-w-0;
+}
+
+.admin-layout-12 {
+  @apply text-white text-sm font-semibold leading-none truncate;
+}
+
+.admin-layout-13 {
+  @apply text-white/50 text-xs mt-0.5;
+}
+
+.admin-layout-14 {
+  @apply flex-1 overflow-y-auto py-3 px-2 space-y-0.5;
+}
+
+.admin-layout-15 {
+  @apply text-[10px] font-semibold text-white/30 tracking-wider px-2 mb-1.5;
+}
+
+.admin-layout-16 {
+  @apply space-y-0.5;
+}
+
+.admin-layout-17 {
+  @apply flex-1 text-left;
+}
+
+.admin-layout-18 {
+  @apply w-3 h-3 opacity-70;
+}
+
+.admin-layout-19 {
+  @apply px-3 py-4 border-t border-white/10;
+}
+
+.admin-layout-20 {
+  @apply w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium text-white/60 hover:bg-white/10 hover:text-white transition-all duration-200 hover:translate-x-0.5;
+}
+
+.admin-layout-21 {
+  @apply fixed inset-0 z-30 bg-black/50 lg:hidden;
+}
+
+.admin-layout-22 {
+  @apply flex-1 flex flex-col min-h-screen;
+}
+
+.admin-layout-23 {
+  @apply sticky top-0 z-20 border-b border-slate-200/70 h-14 flex items-center px-4 gap-4 backdrop-blur-md;
+  background-color: rgba(255, 255, 255, 0.78);
+}
+
+.admin-layout-24 {
+  @apply p-1.5 text-slate-500 hover:text-slate-700 rounded-lg transition-all duration-200 hover:bg-slate-100;
+}
+
+.admin-layout-25 {
+  @apply w-5 h-5;
+}
+
+.admin-layout-26 {
+  @apply flex items-center gap-2 min-w-0;
+}
+
+.admin-layout-27 {
+  @apply w-4 h-4 text-blue-600 shrink-0;
+}
+
+.admin-layout-28 {
+  @apply font-semibold text-slate-800 text-sm truncate;
+}
+
+.admin-layout-29 {
+  @apply hidden sm:inline text-slate-300;
+}
+
+.admin-layout-30 {
+  @apply hidden sm:inline text-xs text-slate-500;
+}
+
+.admin-layout-31 {
+  @apply flex-1;
+}
+
+.admin-layout-32 {
+  @apply hidden sm:flex items-center gap-2 bg-slate-100 hover:bg-slate-200 hover:shadow-sm text-slate-500 text-sm rounded-lg px-3 py-1.5 transition-all duration-200;
+}
+
+.admin-layout-33 {
+  @apply w-3.5 h-3.5;
+}
+
+.admin-layout-34 {
+  @apply text-[10px] bg-white border border-slate-200 rounded px-1;
+}
+
+.admin-layout-35 {
+  @apply relative p-2 text-slate-500 hover:text-violet-600 hover:bg-violet-50 rounded-lg transition-all duration-200 hover:scale-105;
+}
+
+.admin-layout-36 {
+  @apply absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 rounded-full animate-pulse;
+}
+
+.admin-layout-37 {
+  @apply w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center text-white font-bold text-xs cursor-pointer;
+}
+
+.admin-layout-38 {
+  @apply flex items-center gap-3 px-5 py-4 border-t border-white/10;
+}
+
+.admin-layout-39 {
+  @apply w-8 h-8 rounded-full flex items-center justify-center text-white font-semibold text-xs cursor-pointer shadow-sm transition-transform duration-200 hover:scale-110;
+  background-image: linear-gradient(135deg, #a78bfa 0%, #3b6ef7 100%);
+}
+
+.admin-layout-40 {
+  @apply relative;
+}
+
+.admin-layout-41 {
+  @apply absolute right-0 top-full mt-2 w-40 bg-white border border-slate-200 rounded-lg shadow-lg py-1.5 z-50;
+  animation: adminDropdownIn 160ms ease-out;
+  transform-origin: top right;
+}
+
+@keyframes adminDropdownIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.admin-layout-42 {
+  @apply w-full flex items-center gap-2.5 px-3.5 py-2 text-sm font-medium text-red-600 hover:bg-red-50 transition-colors;
+}
+
+/* Sidebar */
+.admin-layout-sidebar {
+  @apply bg-[#0d1b40] shadow-xl;
+}
+
+/* Main content area gradient wash */
+.admin-content-bg {
+  background-color: #f7f9ff;
+  background-image:
+    radial-gradient(at 15% 0%, rgba(59, 110, 247, 0.14) 0%, transparent 55%),
+    radial-gradient(at 85% 15%, rgba(124, 58, 237, 0.10) 0%, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(59, 110, 247, 0.12) 0%, transparent 55%),
+    linear-gradient(180deg, #ffffff 0%, #f5f8ff 100%);
+  background-attachment: fixed;
+}

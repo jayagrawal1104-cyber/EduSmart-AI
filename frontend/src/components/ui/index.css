@@ -1,0 +1,298 @@
+@reference "../../index.css";
+
+.index-1 {
+  @apply w-2.5 h-2.5;
+}
+
+.index-2 {
+  @apply bg-white border border-slate-200 rounded-xl p-5 shadow-sm transition-all duration-300;
+}
+.index-2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 28px -14px rgba(29, 78, 216, 0.3);
+  border-color: #bfd3ff;
+}
+
+/* Gradient stat icon chips */
+.stat-icon {
+  @apply p-2.5 rounded-lg flex items-center justify-center text-white shadow-sm transition-transform duration-300;
+}
+.stat-icon-blue {
+  background-image: linear-gradient(135deg, #60a5fa 0%, #1d4ed8 100%);
+}
+.stat-icon-green {
+  background-image: linear-gradient(135deg, #4ade80 0%, #15803d 100%);
+}
+.stat-icon-amber {
+  background-image: linear-gradient(135deg, #fbbf24 0%, #b45309 100%);
+}
+.stat-icon-red {
+  background-image: linear-gradient(135deg, #f87171 0%, #b91c1c 100%);
+}
+.stat-icon-violet {
+  background-image: linear-gradient(135deg, #a78bfa 0%, #6d28d9 100%);
+}
+.index-2:hover .stat-icon {
+  transform: scale(1.08) rotate(-4deg);
+}
+
+.index-3 {
+  @apply flex items-start justify-between mb-3;
+}
+
+.index-4 {
+  @apply w-3 h-3;
+}
+
+.index-5 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.index-6 {
+  @apply text-sm font-medium text-slate-600 mt-0.5;
+}
+
+.index-7 {
+  @apply text-xs text-slate-400 mt-1;
+}
+
+.index-8 {
+  @apply w-4 h-4;
+}
+
+.index-9 {
+  @apply flex items-start gap-3;
+}
+
+.index-10 {
+  @apply flex-1 min-w-0;
+}
+
+.index-11 {
+  @apply flex items-start justify-between gap-2;
+}
+
+.index-12 {
+  @apply text-[10px] text-slate-500 shrink-0;
+}
+
+.index-13 {
+  @apply text-xs text-slate-600 mt-0.5;
+}
+
+.index-14 {
+  @apply mt-2 space-y-1;
+}
+
+.index-15 {
+  @apply text-xs text-slate-600 flex items-start gap-1.5;
+}
+
+.index-16 {
+  @apply mt-1.5 w-1 h-1 bg-slate-400 rounded-full shrink-0;
+}
+
+.index-17 {
+  @apply text-xs text-slate-700 mt-2 font-medium;
+}
+
+.index-18 {
+  @apply flex items-center gap-3 mt-3;
+}
+
+.index-19 {
+  @apply text-xs font-medium text-blue-600 hover:text-blue-700;
+}
+
+.index-20 {
+  @apply flex items-center gap-2;
+}
+
+.index-21 {
+  @apply flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden;
+}
+.index-21 > div {
+  transition: width 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.index-22 {
+  @apply text-xs font-medium text-slate-600 w-8 text-right;
+}
+
+.index-23 {
+  @apply flex flex-col items-center justify-center py-16 text-center;
+}
+
+.index-24 {
+  @apply w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center text-slate-400 mb-4;
+}
+
+.index-25 {
+  @apply text-sm font-semibold text-slate-700;
+}
+
+.index-26 {
+  @apply text-sm text-slate-400 mt-1 max-w-xs;
+}
+
+.index-27 {
+  @apply mt-4 text-sm font-medium text-blue-600 hover:text-blue-700;
+}
+
+.index-28 {
+  @apply flex items-start justify-between gap-4 mb-5;
+}
+
+.index-29 {
+  @apply text-base font-semibold text-slate-900;
+}
+
+.index-30 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.index-31 {
+  @apply shrink-0;
+}
+
+.index-32 {
+  @apply w-full text-sm;
+}
+
+.index-33 {
+  @apply border-b border-slate-100;
+}
+
+.index-34 {
+  @apply text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wide whitespace-nowrap;
+}
+
+.index-35 {
+  @apply divide-y divide-slate-50;
+}
+
+.index-36 {
+  @apply block text-sm font-medium text-slate-700 mb-1.5;
+}
+
+.index-37 {
+  @apply text-red-500 ml-0.5;
+}
+
+.index-38 {
+  @apply relative;
+}
+
+.index-39 {
+  @apply absolute left-3 top-1/2 -translate-y-1/2 text-slate-400;
+}
+
+.index-40 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 pl-3 pr-8 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white;
+}
+
+.index-41 {
+  @apply flex flex-col items-center;
+}
+
+.index-42 {
+  @apply relative w-32 h-16 overflow-hidden;
+}
+
+.index-43 {
+  @apply w-full h-full;
+}
+
+.index-44 {
+  @apply text-3xl font-bold font-display text-slate-900 -mt-2;
+}
+
+/* ================================
+   Gradient + animation system
+   ================================ */
+
+/* Slow-moving animated wash used as the full-page background
+   (white fading into brand blue, matching the reference image) */
+@keyframes gradientDrift {
+  0% { background-position: 0% 30%; }
+  50% { background-position: 100% 70%; }
+  100% { background-position: 0% 30%; }
+}
+
+.app-gradient-bg {
+  background-image: linear-gradient(-45deg, #ffffff 0%, #f3f7ff 22%, #dce8ff 45%, #93b4fd 72%, #3b6ef7 100%);
+  background-size: 300% 300%;
+  animation: gradientDrift 22s ease infinite;
+}
+
+.app-gradient-bg-dark {
+  background-image: linear-gradient(-45deg, #050d24 0%, #0d1b40 30%, #152870 60%, #1d3a9e 85%, #2347c5 100%);
+  background-size: 300% 300%;
+  animation: gradientDrift 26s ease infinite;
+}
+
+/* Reusable gradient fills for buttons/badges/icons */
+.gradient-brand {
+  background-image: linear-gradient(135deg, #3b6ef7 0%, #6d28d9 100%);
+}
+.gradient-brand-hover {
+  transition: background-image 200ms ease, transform 200ms ease, box-shadow 200ms ease;
+}
+.gradient-brand-hover:hover {
+  background-image: linear-gradient(135deg, #1d4ed8 0%, #5b21b6 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px -6px rgba(59, 110, 247, 0.45);
+}
+
+/* Glass panels for headers/sidebars sitting on top of the gradient */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+.glass-panel-dark {
+  background: rgba(13, 27, 64, 0.78);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Hover lift for cards/buttons */
+.hover-lift {
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.hover-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px -10px rgba(29, 78, 216, 0.35);
+}
+
+/* Gentle floating motion, e.g. for logo marks / hero art */
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.float-anim {
+  animation: floatY 4s ease-in-out infinite;
+}
+
+/* Soft pulsing glow, e.g. active nav item / highlighted card */
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(59, 110, 247, 0.45); }
+  50% { box-shadow: 0 0 0 8px rgba(59, 110, 247, 0); }
+}
+.glow-pulse {
+  animation: glowPulse 2.4s ease-in-out infinite;
+}
+
+/* Shimmering gradient text, e.g. hero headline / AI badges */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer-text {
+  background-image: linear-gradient(90deg, #1d4ed8, #7c3aed, #3b6ef7, #1d4ed8);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 6s linear infinite;
+}

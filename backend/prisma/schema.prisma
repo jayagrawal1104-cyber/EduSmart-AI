@@ -1,0 +1,661 @@
+// Prisma schema for Campus Dashboard
+// Provider: MySQL (Hostinger-compatible). Run `npx prisma migrate dev` after
+// setting DATABASE_URL in .env to create these tables.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Multi-tenancy root: every Institution is a separate school/college/university
+// using the platform. Almost every other model is scoped to one institutionId.
+// ---------------------------------------------------------------------------
+model Institution {
+  id          String   @id @default(cuid())
+  name        String
+  code        String   @unique // e.g. "EDU-VIT1-XP2" — used for join requests
+  status      InstitutionStatus @default(TRIAL)
+
+  // Profile fields shown/edited on the AdminInstitution page. All optional —
+  // an institution can exist (and log in) before any of these are filled in.
+  type            String?  // e.g. "University", "Engineering College"
+  address         String?
+  state           String?
+  email           String?  // official/contact email, distinct from any admin's login email
+  phone           String?
+  website         String?
+  accreditation   String?
+  establishedYear Int?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  admins        Admin[]
+  faculty       Faculty[]
+  students      Student[]
+  departments   Department[]
+  courses       Course[]
+  notices       Notice[]
+  joinRequests  JoinRequest[]
+  subscription  Subscription?
+  resources     Resource[]
+  generatedReports GeneratedReport[]
+  settings      InstitutionSettings?
+  auditLogs     AuditLog[]
+
+  @@map("institutions")
+}
+
+enum InstitutionStatus {
+  ACTIVE
+  TRIAL
+  SUSPENDED
+}
+
+model Subscription {
+  id            String   @id @default(cuid())
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId String   @unique
+  plan          String   @default("trial")
+  seats         Int      @default(0)
+  renewsAt      DateTime?
+  createdAt     DateTime @default(now())
+
+  @@map("subscriptions")
+}
+
+// ---------------------------------------------------------------------------
+// Super Admin — platform-level, not tied to any single institution
+// ---------------------------------------------------------------------------
+model SuperAdmin {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+
+  @@map("super_admins")
+}
+
+// ---------------------------------------------------------------------------
+// Institution-scoped roles
+// ---------------------------------------------------------------------------
+model Admin {
+  id            String   @id @default(cuid())
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId String
+  name          String
+  email         String
+  passwordHash  String
+  createdAt     DateTime @default(now())
+  sessionsInvalidatedAt DateTime? // set on "Sign out of all devices"; tokens issued before this are rejected
+
+  createdNotices Notice[]
+  uploadedResources Resource[]
+
+  @@unique([institutionId, email])
+  @@map("admins")
+}
+
+model Department {
+  id            String   @id @default(cuid())
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId String
+  name          String
+  code          String
+
+  students Student[]
+  faculty  Faculty[]
+  courses  Course[]
+  resources Resource[]
+
+  @@unique([institutionId, code])
+  @@map("departments")
+}
+
+model Course {
+  id            String   @id @default(cuid())
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId String
+  department    Department @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  departmentId  String
+  name          String   // e.g. "B.Tech CSE"
+  code          String
+
+  students Student[]
+  faculty  Faculty[]
+
+  @@unique([institutionId, code])
+  @@map("courses")
+}
+
+model Faculty {
+  id             String   @id @default(cuid())
+  institution    Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId  String
+  department     Department @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  departmentId   String
+  // The course this faculty member belongs to (e.g. "B.Tech CSE"). Optional —
+  // chosen on the join form (see JoinRequest.courseId) or set later by an admin.
+  course         Course?  @relation(fields: [courseId], references: [id])
+  courseId       String?
+  name           String
+  email          String
+  passwordHash   String
+  designation    String?  // Professor / Associate Professor / Assistant Professor
+  subjects       Subject[]
+  status         MemberStatus @default(ACTIVE)
+  joinedDate     DateTime @default(now())
+
+  // Editable via PUT /faculty/profile — shown on the FacultyProfile page.
+  phone          String?
+  qualifications String?
+  specialization String?
+  officeHours    String?
+  officeRoom     String?
+  sessionsInvalidatedAt DateTime? // set on "Sign out of all devices"; tokens issued before this are rejected
+
+  assignments    Assignment[]
+  periodicTests  PeriodicTest[]
+  attendanceMarked Attendance[] @relation("MarkedByFaculty")
+  lessonPlans    LessonPlan[]
+  timetableSlots TimetableSlot[]
+  feedbackGiven  Feedback[] @relation("FacultyFeedback")
+  uploadedResources Resource[]
+  certifications FacultyCertification[]
+  settings       FacultySettings?
+
+  @@unique([institutionId, email])
+  @@map("faculty")
+}
+
+// ---------------------------------------------------------------------------
+// Faculty settings (FacultySettings page — notifications, teaching prefs,
+// appearance/language, and the 2FA flag). Mirrors StudentSettings below.
+// ---------------------------------------------------------------------------
+model FacultySettings {
+  id        String  @id @default(cuid())
+  faculty   Faculty @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  facultyId String  @unique
+
+  // Notification Preferences
+  notifyEmail                 Boolean @default(true)
+  notifyPush                  Boolean @default(true)
+  notifyAssignmentSubmissions Boolean @default(true)
+  notifyAttendanceReminders   Boolean @default(true)
+  notifyLowAttendanceAlerts   Boolean @default(true)
+  notifyStudentFeedback       Boolean @default(false)
+  notifyNotices               Boolean @default(true)
+
+  // Teaching Preferences
+  attendanceMethod        String  @default("manual") // manual | qr | biometric
+  defaultGradeScale       String  @default("percentage") // percentage | letter | gpa
+  autoReminders            Boolean @default(true)
+  shareGradesWithStudents  Boolean @default(true)
+
+  // Appearance & Language — stored for when a theme/i18n provider exists;
+  // the UI doesn't act on these yet beyond the "light" default.
+  theme       String @default("light")
+  language    String @default("en")
+  landingPage String @default("faculty/dashboard")
+
+  // Security
+  twoFactorEnabled Boolean @default(false)
+
+  updatedAt DateTime @updatedAt
+
+  @@map("faculty_settings")
+}
+
+// ---------------------------------------------------------------------------
+// Faculty certifications (FacultyProfile page — "Certifications & Credentials")
+// ---------------------------------------------------------------------------
+model FacultyCertification {
+  id        String   @id @default(cuid())
+  faculty   Faculty  @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  facultyId String
+  title     String
+  issuer    String
+  year      String
+  createdAt DateTime @default(now())
+
+  @@map("faculty_certifications")
+}
+
+model Subject {
+  id         String   @id @default(cuid())
+  name       String
+  faculty    Faculty  @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  facultyId  String
+
+  assignments Assignment[]
+  attendance  Attendance[]
+  periodicTests PeriodicTest[]
+
+  @@map("subjects")
+}
+
+model Student {
+  id             String   @id @default(cuid())
+  institution    Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId  String
+  department     Department @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  departmentId   String
+  course         Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId       String
+  name           String
+  email          String
+  passwordHash   String
+  rollId         String?
+  year           Int
+  section        String
+  status         MemberStatus @default(ACTIVE)
+  enrolledDate   DateTime @default(now())
+  sessionsInvalidatedAt DateTime?
+
+  // Smart Attendance face recognition. faceDescriptor is a JSON-encoded
+  // 128-length float array produced client-side by face-api.js — never a
+  // photo. Recognition matching (Euclidean distance) also happens against
+  // this array; see utils/faceMatch.js. Null/faceEnrolledAt=null means the
+  // student hasn't set up Face ID and must be marked manually.
+  faceDescriptor String?   @db.Text
+  faceEnrolledAt DateTime?
+
+  attendance         Attendance[]
+  submissions        Submission[]
+  feedbackGiven      Feedback[] @relation("StudentFeedback")
+  performanceRecords PerformanceRecord[]
+  periodicTestResults PeriodicTestResult[]
+  settings           StudentSettings?
+
+  @@unique([institutionId, email])
+  @@map("students")
+}
+
+enum MemberStatus {
+  ACTIVE
+  INACTIVE
+}
+
+// ---------------------------------------------------------------------------
+// Academics
+// ---------------------------------------------------------------------------
+model Assignment {
+  id          String   @id @default(cuid())
+  faculty     Faculty  @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  facultyId   String
+  subject     Subject  @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  subjectId   String
+  title       String
+  description String?  @db.Text
+  totalMarks  Int
+  dueDate     DateTime
+  createdAt   DateTime @default(now())
+
+  submissions Submission[]
+
+  @@map("assignments")
+}
+
+model Submission {
+  id           String   @id @default(cuid())
+  assignment   Assignment @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  assignmentId String
+  student      Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId    String
+  status       SubmissionStatus @default(PENDING)
+  marks        Int?
+  submittedAt  DateTime?
+
+  @@unique([assignmentId, studentId])
+  @@map("submissions")
+}
+
+enum SubmissionStatus {
+  PENDING
+  SUBMITTED
+  GRADED
+  LATE
+}
+
+model Attendance {
+  id         String   @id @default(cuid())
+  student    Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId  String
+  subject    Subject  @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  subjectId  String
+  date       DateTime
+  status     AttendanceStatus
+  markedBy   Faculty  @relation("MarkedByFaculty", fields: [markedById], references: [id])
+  markedById String
+  markedAt   DateTime @default(now()) // when it was recorded, distinct from `date` (the class date)
+
+  @@unique([studentId, subjectId, date])
+  @@map("attendance")
+}
+
+enum AttendanceStatus {
+  PRESENT
+  ABSENT
+  LATE
+}
+
+model PerformanceRecord {
+  id          String   @id @default(cuid())
+  student     Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId   String
+  subject     String
+  score       Int
+  recordedAt  DateTime @default(now())
+
+  @@map("performance_records")
+}
+
+model PeriodicTest {
+  id          String   @id @default(cuid())
+  faculty     Faculty  @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  facultyId   String
+  subject     Subject  @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  subjectId   String
+  title       String
+  type        PeriodicTestType
+  totalMarks  Int
+  date        DateTime
+  time        String?  // display string, e.g. "10:00 AM - 11:00 AM"
+  venue       String?
+  syllabus    String?  @db.Text
+  section     String
+  createdAt   DateTime @default(now())
+
+  results     PeriodicTestResult[]
+
+  @@map("periodic_tests")
+}
+
+enum PeriodicTestType {
+  UNIT_TEST
+  CLASS_TEST
+  MID_SEMESTER
+  QUIZ
+}
+
+model PeriodicTestResult {
+  id            String   @id @default(cuid())
+  test          PeriodicTest @relation(fields: [testId], references: [id], onDelete: Cascade)
+  testId        String
+  student       Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId     String
+  marksObtained Int?
+  missed        Boolean  @default(false)
+
+  @@unique([testId, studentId])
+  @@map("periodic_test_results")
+}
+
+model TimetableSlot {
+  id            String   @id @default(cuid())
+  faculty       Faculty  @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  facultyId     String
+  dayOfWeek     Int      // 0=Sunday .. 6=Saturday
+  startTime     String   // "09:00"
+  endTime       String   // "10:00"
+  subjectName   String
+  room          String?
+  section       String?
+  type          String   @default("Lecture") // "Lecture" | "Tutorial" | "Lab"
+
+  @@map("timetable_slots")
+}
+
+model LessonPlan {
+  id          String   @id @default(cuid())
+  faculty     Faculty  @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  facultyId   String
+  subjectName String
+  topic       String
+  content     String   @db.Text
+  scheduledFor DateTime?
+  createdAt   DateTime @default(now())
+
+  @@map("lesson_plans")
+}
+
+model AuditLog {
+  id            String   @id @default(cuid())
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId String
+  userLabel     String
+  role          String
+  action        String
+  module        String?
+  ipAddress     String?
+  device        String?
+  status        String   @default("Success")
+  timestamp     DateTime @default(now())
+
+  @@map("audit_logs")
+}
+
+model Notice {
+  id            String   @id @default(cuid())
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId String
+  admin         Admin?   @relation(fields: [adminId], references: [id])
+  adminId       String?
+  title         String
+  description   String   @db.Text
+  category      String
+  priority      NoticePriority @default(MEDIUM)
+  audience      String   // "All Students" / "CSE Students" / etc.
+  publishDate   DateTime @default(now())
+  expiryDate    DateTime?
+
+  @@map("notices")
+}
+
+enum NoticePriority {
+  LOW
+  MEDIUM
+  HIGH
+}
+
+model Feedback {
+  id           String   @id @default(cuid())
+  student      Student? @relation("StudentFeedback", fields: [studentId], references: [id])
+  studentId    String?
+  faculty      Faculty? @relation("FacultyFeedback", fields: [facultyId], references: [id])
+  facultyId    String?
+  subject      String
+  message      String   @db.Text
+  rating       Int?
+  anonymous    Boolean  @default(false)
+  createdAt    DateTime @default(now())
+
+  @@map("feedback")
+}
+
+model JoinRequest {
+  id            String   @id @default(cuid())
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId String
+  name          String
+  email         String
+  role          String   // "Student" | "Faculty"
+  department    String?
+  rollId        String?
+  // The course/class being joined, captured on the join form itself (not at
+  // admin approval time) — for students, so they land directly in that
+  // class with its faculty; for faculty, the course they belong to. Copied
+  // onto the real Student/Faculty row on approval, falling back to the
+  // admin's own pick if one is supplied there (see approveJoinRequest in
+  // admin.controller.js). `subjects` below is faculty-only: what they teach,
+  // typed freely, stored comma-separated, turned into real Subject rows on approval.
+  courseId      String?
+  subjects      String?  @db.Text
+  passwordHash  String   // hashed at signup time; used to create the real account on approval
+  // Smart Attendance Face ID, captured client-side (8-pose guided capture,
+  // averaged into one 128-length descriptor by the browser) during the
+  // student's join form, before the request is submitted for admin
+  // approval. Never a photo — only the numeric vector. Copied onto the new
+  // Student row's faceDescriptor/faceEnrolledAt when the request is
+  // approved; see approveJoinRequest in admin.controller.js.
+  faceDescriptor String? @db.Text
+  status        JoinRequestStatus @default(PENDING)
+  requestedDate DateTime @default(now())
+
+  @@map("join_requests")
+}
+
+enum JoinRequestStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+
+// ---------------------------------------------------------------------------
+// Resource Library (AdminResources page)
+// ---------------------------------------------------------------------------
+enum ResourceType {
+  SYLLABUS
+  NOTES
+  VIDEO
+  QUESTION_PAPER
+  REFERENCE
+}
+
+enum ResourceStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+model Resource {
+  id            String   @id @default(cuid())
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId String
+  department    Department @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  departmentId  String
+  title         String
+  subject       String
+  description   String?  @db.Text
+  type          ResourceType
+  status        ResourceStatus @default(PENDING)
+  fileUrl       String   @db.Text  // path served under /uploads/resources
+  fileName      String
+  fileSizeBytes Int
+
+  // Denormalized uploader label for display (matches AuditLog.userLabel pattern);
+  // the FK below is whichever one applies, the other stays null.
+  uploadedByLabel     String
+  uploadedByRole      String   // "admin" | "faculty"
+  uploadedByAdmin     Admin?   @relation(fields: [uploadedByAdminId], references: [id])
+  uploadedByAdminId   String?
+  uploadedByFaculty   Faculty? @relation(fields: [uploadedByFacultyId], references: [id])
+  uploadedByFacultyId String?
+
+  downloads   Int      @default(0)
+  createdAt   DateTime @default(now())
+  reviewedAt  DateTime?
+
+  @@map("resources")
+}
+
+// ---------------------------------------------------------------------------
+// Institution-wide settings (AdminSettings + SecurityCenter pages)
+// One row per institution — created lazily on first read/write.
+// ---------------------------------------------------------------------------
+model InstitutionSettings {
+  id            String   @id @default(cuid())
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId String   @unique
+
+  // Institution Defaults
+  academicYear        String  @default("2026")
+  defaultGradeScale   String  @default("percentage") // percentage | letter | gpa
+  attendanceThreshold Int     @default(75)
+  landingPage         String  @default("admin/dashboard")
+
+  // Notification Preferences
+  notifyEmail            Boolean @default(true)
+  notifyPush              Boolean @default(true)
+  notifyJoinRequests      Boolean @default(true)
+  notifyLowAttendance     Boolean @default(true)
+  notifyAtRiskFlags       Boolean @default(true)
+  notifyWorkloadAlerts    Boolean @default(true)
+  notifyWeeklyDigest      Boolean @default(true)
+
+  // Appearance & Language
+  theme    String @default("light")
+  language String @default("en")
+  timezone String @default("ist")
+
+  // Security (shared by AdminSettings + SecurityCenter)
+  twoFactorRequired     Boolean @default(false)
+  sessionTimeoutMinutes Int     @default(30)
+  qrLoginEnabled        Boolean @default(true)
+  joinApprovalRequired  Boolean @default(true)
+
+  updatedAt DateTime @updatedAt
+
+  @@map("institution_settings")
+}
+
+model StudentSettings {
+  id        String  @id @default(cuid())
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId String  @unique
+
+  // Notification Preferences
+  notifyEmail       Boolean @default(true)
+  notifyPush        Boolean @default(true)
+  notifyAssignments Boolean @default(true)
+  notifyAttendance  Boolean @default(true)
+  notifyNotices     Boolean @default(false)
+
+  // Appearance & Language — stored for when a theme/i18n provider exists;
+  // the UI doesn't act on these yet beyond the "light" default.
+  theme    String @default("light")
+  language String @default("en")
+
+  // Security
+  twoFactorEnabled Boolean @default(false)
+
+  updatedAt DateTime @updatedAt
+
+  @@map("student_settings")
+}
+
+// ---------------------------------------------------------------------------
+// Generated Reports (Reports page)
+// ---------------------------------------------------------------------------
+enum ReportType {
+  ATTENDANCE
+  PERFORMANCE
+  ASSIGNMENT
+  WORKLOAD
+  RISK
+  DEPARTMENT
+  FEEDBACK
+}
+
+model GeneratedReport {
+  id               String   @id @default(cuid())
+  institution      Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  institutionId    String
+  type             ReportType
+  title            String
+  format           String   // PDF | CSV | Excel — generation currently produces CSV regardless of label
+  fileUrl          String   @db.Text // path served under /uploads/reports
+  fileSizeBytes    Int
+  generatedByLabel String
+
+  createdAt DateTime @default(now())
+
+  @@map("generated_reports")
+}

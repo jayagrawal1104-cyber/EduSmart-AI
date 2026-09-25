@@ -1,0 +1,141 @@
+@reference "../../index.css";
+
+.join-requests-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto;
+}
+
+.join-requests-2 {
+  @apply flex items-start justify-between mb-6;
+}
+
+.join-requests-3 {
+  @apply text-2xl font-bold text-slate-900;
+}
+
+.join-requests-4 {
+  @apply text-sm text-slate-500 mt-1;
+}
+
+.join-requests-5 {
+  @apply flex items-center gap-1 bg-white border border-slate-200 rounded-xl p-1 w-fit mb-5;
+}
+
+.join-requests-6 {
+  @apply flex items-center gap-3 mb-4;
+}
+
+.join-requests-7 {
+  @apply flex items-center gap-1 bg-white border border-slate-200 rounded-xl p-1;
+}
+
+.join-requests-8 {
+  @apply flex items-center gap-1;
+}
+
+.join-requests-9 {
+  @apply w-3 h-3;
+}
+
+.join-requests-10 {
+  @apply flex items-center gap-2 ml-2;
+}
+
+.join-requests-11 {
+  @apply text-xs text-slate-500;
+}
+
+.join-requests-12 {
+  @apply w-3.5 h-3.5;
+}
+
+.join-requests-13 {
+  @apply flex flex-col items-center justify-center py-16 text-center;
+}
+
+.join-requests-14 {
+  @apply w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center text-slate-400 mb-4;
+}
+
+.join-requests-15 {
+  @apply w-6 h-6;
+}
+
+.join-requests-16 {
+  @apply text-sm font-semibold text-slate-700;
+}
+
+.join-requests-17 {
+  @apply text-sm text-slate-400 mt-1;
+}
+
+.join-requests-18 {
+  @apply overflow-x-auto;
+}
+
+.join-requests-19 {
+  @apply w-full text-sm;
+}
+
+.join-requests-20 {
+  @apply border-b border-slate-100;
+}
+
+.join-requests-21 {
+  @apply py-3 px-4 w-8;
+}
+
+.join-requests-22 {
+  @apply w-4 h-4 rounded border-slate-300 text-blue-600 cursor-pointer;
+}
+
+.join-requests-23 {
+  @apply text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wide whitespace-nowrap;
+}
+
+.join-requests-24 {
+  @apply divide-y divide-slate-50;
+}
+
+.join-requests-25 {
+  @apply hover:bg-slate-50/50 transition-colors;
+}
+
+.join-requests-26 {
+  @apply py-3 px-4;
+}
+
+.join-requests-27 {
+  @apply flex items-center gap-2.5;
+}
+
+.join-requests-28 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.join-requests-29 {
+  @apply text-xs text-slate-400;
+}
+
+.join-requests-30 {
+  @apply py-3 px-4 text-sm text-slate-600;
+}
+
+.join-requests-31 {
+  @apply py-3 px-4 font-mono text-xs text-slate-500;
+}
+
+.join-requests-32 {
+  @apply py-3 px-4 text-xs text-slate-500 whitespace-nowrap;
+}
+
+.join-requests-33 {
+  @apply p-1.5 text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors;
+}
+
+.join-requests-34 {
+  @apply flex items-center gap-1 px-2 py-1 text-xs font-medium text-green-700 bg-green-50 hover:bg-green-100 rounded-lg transition-colors;
+}
+
+.join-requests-35 {
+  @apply flex items-center gap-1 px-2 py-1 text-xs font-medium text-red-700 bg-red-50 hover:bg-red-100 rounded-lg transition-colors;
+}

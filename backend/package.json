@@ -1,0 +1,31 @@
+{
+  "name": "campus-dashboard-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "predev": "docker compose -f ../docker-compose.yml up -d --wait",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "prisma:generate": "node scripts/with-db-url.js npx prisma generate",
+    "prisma:migrate": "node scripts/with-db-url.js npx prisma migrate dev",
+    "prisma:deploy": "node scripts/with-db-url.js npx prisma migrate deploy",
+    "prisma:studio": "node scripts/with-db-url.js npx prisma studio",
+    "db:seed": "node scripts/with-db-url.js node prisma/seed.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "multer": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prisma": "^5.20.0"
+  }
+}

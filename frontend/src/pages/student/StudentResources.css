@@ -1,0 +1,165 @@
+@reference "../../index.css";
+
+.student-resources-1 {
+  @apply w-5 h-5 text-red-500;
+}
+
+.student-resources-2 {
+  @apply w-5 h-5 text-blue-500;
+}
+
+.student-resources-3 {
+  @apply w-5 h-5 text-slate-500;
+}
+
+.student-resources-4 {
+  @apply bg-white border border-slate-200 rounded-xl p-5 shadow-sm flex flex-col gap-3 hover:shadow-md transition-shadow;
+}
+
+.student-resources-5 {
+  @apply flex items-start gap-3;
+}
+
+.student-resources-6 {
+  @apply w-10 h-10 bg-slate-50 border border-slate-100 rounded-xl flex items-center justify-center shrink-0;
+}
+
+.student-resources-7 {
+  @apply flex-1 min-w-0;
+}
+
+.student-resources-8 {
+  @apply text-sm font-semibold text-slate-900 leading-snug line-clamp-2;
+}
+
+.student-resources-9 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.student-resources-10 {
+  @apply flex flex-wrap gap-1.5;
+}
+
+.student-resources-11 {
+  @apply text-xs text-slate-500 space-y-1;
+}
+
+.student-resources-12 {
+  @apply flex items-center gap-1.5;
+}
+
+.student-resources-13 {
+  @apply w-3 h-3;
+}
+
+.student-resources-14 {
+  @apply mt-auto w-full flex items-center justify-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-all hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.student-resources-15 {
+  @apply w-4 h-4;
+}
+
+.student-resources-16 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.student-resources-17 {
+  @apply flex items-start justify-between;
+}
+
+.student-resources-18 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.student-resources-19 {
+  @apply text-slate-500 text-sm mt-1;
+}
+
+.student-resources-20 {
+  @apply flex flex-col lg:flex-row gap-3;
+}
+
+.student-resources-21 {
+  @apply relative flex-1;
+}
+
+.student-resources-22 {
+  @apply absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400;
+}
+
+.student-resources-23 {
+  @apply w-full pl-10 pr-4 py-2.5 border border-slate-200 rounded-lg text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white;
+}
+
+.student-resources-24 {
+  @apply border border-slate-200 rounded-lg py-2.5 pl-3 pr-8 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white;
+}
+
+.student-resources-25 {
+  @apply flex gap-1.5 flex-wrap;
+}
+
+.student-resources-26 {
+  @apply p-5;
+}
+
+.student-resources-27 {
+  @apply space-y-2;
+}
+
+.student-resources-28 {
+  @apply flex items-center gap-3 py-2 border-b border-slate-50 last:border-0;
+}
+
+.student-resources-29 {
+  @apply w-8 h-8 bg-slate-50 rounded-lg flex items-center justify-center shrink-0;
+}
+
+.student-resources-30 {
+  @apply text-sm font-medium text-slate-900 truncate;
+}
+
+.student-resources-31 {
+  @apply text-xs text-slate-400;
+}
+
+.student-resources-32 {
+  @apply flex items-center gap-1.5 text-xs font-medium text-blue-600 hover:text-blue-700 shrink-0;
+}
+
+.student-resources-33 {
+  @apply w-3.5 h-3.5;
+}
+
+.student-resources-34 {
+  @apply flex items-center justify-between;
+}
+
+.student-resources-35 {
+  @apply text-sm text-slate-500;
+}
+
+.student-resources-36 {
+  @apply font-semibold text-slate-800;
+}
+
+.student-resources-37 {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+.student-resources-38 {
+  @apply bg-white border border-slate-200 rounded-xl p-12 flex flex-col items-center text-center shadow-sm;
+}
+
+.student-resources-39 {
+  @apply w-10 h-10 text-slate-300 mb-3;
+}
+
+.student-resources-40 {
+  @apply text-sm font-semibold text-slate-700;
+}
+
+.student-resources-41 {
+  @apply text-xs text-slate-400 mt-1;
+}

@@ -1,0 +1,225 @@
+@reference "../../index.css";
+
+.join-institution-1 {
+  @apply min-h-screen bg-slate-50 flex flex-col;
+}
+
+.join-institution-2 {
+  @apply bg-white border-b border-slate-200 px-6 py-4;
+}
+
+.join-institution-3 {
+  @apply max-w-lg mx-auto flex items-center justify-between;
+}
+
+.join-institution-4 {
+  @apply flex items-center gap-2 text-sm text-slate-500 hover:text-slate-700 transition-colors duration-200;
+}
+
+.join-institution-5 {
+  @apply w-4 h-4;
+}
+
+.join-institution-6 {
+  @apply flex items-center gap-2;
+}
+
+.join-institution-7 {
+  @apply w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center;
+}
+
+.join-institution-8 {
+  @apply w-4 h-4 text-white;
+}
+
+.join-institution-9 {
+  @apply font-display font-bold text-slate-900;
+}
+
+.join-institution-10 {
+  @apply w-16;
+}
+
+.join-institution-11 {
+  @apply flex-1 flex items-center justify-center px-6 py-12;
+}
+
+.join-institution-12 {
+  @apply w-full max-w-md;
+}
+
+.join-institution-13 {
+  @apply bg-white rounded-2xl border border-slate-200 p-8 shadow-sm;
+}
+
+.join-institution-14 {
+  @apply font-display font-bold text-slate-900 text-2xl mb-1;
+}
+
+.join-institution-15 {
+  @apply text-slate-500 text-sm mb-6;
+}
+
+.join-institution-16 {
+  @apply space-y-4;
+}
+
+.join-institution-17 {
+  @apply block text-sm font-medium text-slate-700 mb-1.5;
+}
+
+.join-institution-18 {
+  @apply relative;
+}
+
+.join-institution-19 {
+  @apply absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400;
+}
+
+.join-institution-20 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 pl-10 pr-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 font-mono tracking-widest;
+}
+
+.join-institution-21 {
+  @apply w-full bg-blue-600 text-white py-2.5 rounded-xl text-sm font-semibold hover:bg-blue-700 disabled:opacity-60 flex items-center justify-center gap-2 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.join-institution-22 {
+  @apply w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin;
+}
+
+.join-institution-23 {
+  @apply flex items-center gap-3 my-5;
+}
+
+.join-institution-24 {
+  @apply flex-1 h-px bg-slate-200;
+}
+
+.join-institution-25 {
+  @apply text-xs text-slate-400;
+}
+
+.join-institution-26 {
+  @apply w-full border border-slate-200 text-slate-700 py-2.5 rounded-xl text-sm font-medium hover:bg-slate-50 flex items-center justify-center gap-2 transition-colors duration-200;
+}
+
+.join-institution-27 {
+  @apply bg-green-50 border border-green-200 rounded-xl p-3 flex items-center gap-3 mb-6;
+}
+
+.join-institution-28 {
+  @apply w-5 h-5 text-green-500 shrink-0;
+}
+
+.join-institution-29 {
+  @apply text-sm font-semibold text-green-800;
+}
+
+.join-institution-30 {
+  @apply text-xs text-green-700;
+}
+
+.join-institution-31 {
+  @apply font-display font-bold text-slate-900 text-xl mb-1;
+}
+
+.join-institution-32 {
+  @apply text-slate-500 text-sm mb-5;
+}
+
+.join-institution-33 {
+  @apply grid grid-cols-2 gap-3 mb-6;
+}
+
+.join-institution-34 {
+  @apply text-sm font-semibold text-slate-900 capitalize;
+}
+
+.join-institution-35 {
+  @apply text-xs text-slate-400 mt-0.5;
+}
+
+.join-institution-36 {
+  @apply w-full bg-blue-600 text-white py-2.5 rounded-xl text-sm font-semibold hover:bg-blue-700 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.join-institution-37 {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.join-institution-38 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.join-institution-39 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 font-mono;
+}
+
+.join-institution-40 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white;
+}
+
+.join-institution-41 {
+  @apply bg-white rounded-2xl border border-slate-200 p-8 shadow-sm text-center;
+}
+
+.join-institution-42 {
+  @apply w-16 h-16 bg-amber-50 rounded-2xl flex items-center justify-center mx-auto mb-5;
+}
+
+.join-institution-43 {
+  @apply w-8 h-8 text-amber-500;
+}
+
+.join-institution-44 {
+  @apply font-display font-bold text-slate-900 text-xl mb-2;
+}
+
+.join-institution-45 {
+  @apply inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-4;
+}
+
+.join-institution-46 {
+  @apply w-1.5 h-1.5 bg-amber-500 rounded-full;
+}
+
+.join-institution-47 {
+  @apply bg-slate-50 border border-slate-200 rounded-xl p-4 text-left mb-6;
+}
+
+.join-institution-48 {
+  @apply text-xs font-semibold text-slate-600 mb-2;
+}
+
+.join-institution-49 {
+  @apply space-y-2;
+}
+
+.join-institution-50 {
+  @apply flex items-center gap-2.5 text-xs text-slate-600;
+}
+
+.join-institution-51 {
+  @apply text-sm text-blue-600 hover:underline font-medium transition-colors duration-200;
+}
+
+.join-institution-52 {
+  @apply w-full border border-slate-200 rounded-lg py-2 px-2.5 flex flex-wrap items-center gap-1.5 focus-within:ring-2 focus-within:ring-blue-500;
+}
+
+.join-institution-53 {
+  @apply inline-flex items-center gap-1 bg-violet-50 text-violet-700 text-xs font-medium pl-2.5 pr-1.5 py-1 rounded-full;
+}
+
+.join-institution-54 {
+  @apply w-4 h-4 rounded-full flex items-center justify-center text-violet-500 hover:bg-violet-100 transition-colors duration-200;
+}
+
+.join-institution-55 {
+  @apply text-xs text-slate-400 mt-1;
+}
+
+.join-institution-56 {
+  @apply flex-1 min-w-[120px] text-sm outline-none py-0.5;
+}

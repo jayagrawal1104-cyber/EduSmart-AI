@@ -1,0 +1,313 @@
+@reference "../../index.css";
+
+.smart-attendance-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.smart-attendance-2 {
+  @apply flex items-start justify-between;
+}
+
+.smart-attendance-3 {
+  @apply text-xl font-bold text-slate-900 font-display flex items-center gap-2;
+}
+
+.smart-attendance-4 {
+  @apply text-sm text-slate-500 mt-0.5;
+}
+
+.smart-attendance-5 {
+  @apply flex items-center gap-0;
+}
+
+.smart-attendance-6 {
+  @apply flex items-center;
+}
+
+.smart-attendance-7 {
+  @apply w-3 h-3;
+}
+
+.smart-attendance-8 {
+  @apply p-6;
+}
+
+.smart-attendance-9 {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+.smart-attendance-10 {
+  @apply mt-6 pt-4 border-t border-slate-100 flex items-center justify-between;
+}
+
+.smart-attendance-11 {
+  @apply text-sm text-slate-500;
+}
+
+.smart-attendance-12 {
+  @apply font-medium text-slate-700;
+}
+
+.smart-attendance-13 {
+  @apply bg-violet-600 hover:bg-violet-700 border-violet-600 text-white;
+}
+
+.smart-attendance-14 {
+  @apply w-4 h-4;
+}
+
+.smart-attendance-15 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-6;
+}
+
+.smart-attendance-16 {
+  @apply relative bg-slate-900 rounded-xl overflow-hidden aspect-video flex flex-col items-center justify-center;
+}
+
+.smart-attendance-17 {
+  @apply absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/60;
+}
+
+.smart-attendance-18 {
+  @apply w-12 h-12 text-white/30 mb-3;
+}
+
+.smart-attendance-19 {
+  @apply text-white/60 text-sm font-medium;
+}
+
+.smart-attendance-20 {
+  @apply text-white/30 text-xs mt-1;
+}
+
+.smart-attendance-21 {
+  @apply absolute top-4 left-4 w-8 h-8 border-t-2 border-l-2 border-violet-400 rounded-tl;
+}
+
+.smart-attendance-22 {
+  @apply absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-violet-400 rounded-tr;
+}
+
+.smart-attendance-23 {
+  @apply absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-violet-400 rounded-bl;
+}
+
+.smart-attendance-24 {
+  @apply absolute bottom-4 right-4 w-8 h-8 border-b-2 border-r-2 border-violet-400 rounded-br;
+}
+
+.smart-attendance-25 {
+  @apply mt-4 w-full flex items-center justify-center gap-2 bg-violet-600 hover:bg-violet-700 text-white font-medium text-sm py-2.5 rounded-xl transition-colors;
+}
+
+.smart-attendance-26 {
+  @apply p-6 flex flex-col;
+}
+
+.smart-attendance-27 {
+  @apply flex-1 border-2 border-dashed border-slate-200 rounded-xl flex flex-col items-center justify-center p-8 bg-slate-50/50 hover:bg-slate-50 hover:border-violet-300 transition-colors cursor-pointer;
+}
+
+.smart-attendance-28 {
+  @apply w-12 h-12 bg-violet-50 rounded-xl flex items-center justify-center mb-3;
+}
+
+.smart-attendance-29 {
+  @apply w-5 h-5 text-violet-500;
+}
+
+.smart-attendance-30 {
+  @apply text-sm font-medium text-slate-700 text-center;
+}
+
+.smart-attendance-31 {
+  @apply text-xs text-slate-400 text-center mt-1;
+}
+
+.smart-attendance-32 {
+  @apply text-xs text-slate-400 text-center;
+}
+
+.smart-attendance-33 {
+  @apply mt-4 p-3 bg-blue-50 border border-blue-100 rounded-xl flex items-start gap-2;
+}
+
+.smart-attendance-34 {
+  @apply w-4 h-4 text-blue-500 mt-0.5 shrink-0;
+}
+
+.smart-attendance-35 {
+  @apply text-xs text-blue-700;
+}
+
+.smart-attendance-36 {
+  @apply mt-4 w-full flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium text-sm py-2.5 rounded-xl transition-colors border border-slate-200;
+}
+
+.smart-attendance-37 {
+  @apply space-y-5;
+}
+
+.smart-attendance-38 {
+  @apply p-10 flex flex-col items-center;
+}
+
+.smart-attendance-39 {
+  @apply w-16 h-16 rounded-full bg-violet-50 flex items-center justify-center mb-4 animate-pulse;
+}
+
+.smart-attendance-40 {
+  @apply w-8 h-8 text-violet-500;
+}
+
+.smart-attendance-41 {
+  @apply text-lg font-semibold text-slate-800 font-display;
+}
+
+.smart-attendance-42 {
+  @apply text-sm text-slate-500 mt-1;
+}
+
+.smart-attendance-43 {
+  @apply mt-6 w-64 h-1.5 bg-slate-100 rounded-full overflow-hidden;
+}
+
+.smart-attendance-44 {
+  @apply h-full bg-violet-500 rounded-full animate-[load_2.2s_ease-in-out_forwards];
+}
+
+.smart-attendance-45 {
+  @apply grid grid-cols-3 gap-4;
+}
+
+.smart-attendance-46 {
+  @apply bg-white border border-slate-200 rounded-xl p-4 text-center shadow-sm;
+}
+
+.smart-attendance-47 {
+  @apply text-2xl font-bold text-slate-800 font-display;
+}
+
+.smart-attendance-48 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.smart-attendance-49 {
+  @apply bg-white border border-green-200 rounded-xl p-4 text-center shadow-sm;
+}
+
+.smart-attendance-50 {
+  @apply text-2xl font-bold text-green-600 font-display;
+}
+
+.smart-attendance-51 {
+  @apply bg-white border border-amber-200 rounded-xl p-4 text-center shadow-sm;
+}
+
+.smart-attendance-52 {
+  @apply text-2xl font-bold text-amber-600 font-display;
+}
+
+.smart-attendance-53 {
+  @apply p-5;
+}
+
+.smart-attendance-54 {
+  @apply py-3 px-4;
+}
+
+.smart-attendance-55 {
+  @apply flex items-center gap-2.5;
+}
+
+.smart-attendance-56 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.smart-attendance-57 {
+  @apply py-3 px-4 text-sm text-slate-500;
+}
+
+.smart-attendance-58 {
+  @apply flex items-center gap-2;
+}
+
+.smart-attendance-59 {
+  @apply w-16 h-1.5 bg-slate-100 rounded-full overflow-hidden;
+}
+
+.smart-attendance-60 {
+  @apply flex items-center gap-1;
+}
+
+.smart-attendance-61 {
+  @apply w-3.5 h-3.5;
+}
+
+.smart-attendance-62 {
+  @apply flex justify-end;
+}
+
+.smart-attendance-63 {
+  @apply w-16 h-16 rounded-full bg-green-50 flex items-center justify-center mb-4;
+}
+
+.smart-attendance-64 {
+  @apply w-8 h-8 text-green-500;
+}
+
+.smart-attendance-65 {
+  @apply mt-5 flex items-center gap-2 text-sm font-medium text-violet-600 hover:text-violet-700;
+}
+
+.smart-attendance-66 {
+  @apply grid grid-cols-2 lg:grid-cols-4 gap-4;
+}
+
+.smart-attendance-67 {
+  @apply bg-white border border-red-200 rounded-xl p-4 text-center shadow-sm;
+}
+
+.smart-attendance-68 {
+  @apply text-2xl font-bold text-red-500 font-display;
+}
+
+.smart-attendance-69 {
+  @apply text-2xl font-bold text-amber-500 font-display;
+}
+
+.smart-attendance-70 {
+  @apply text-2xl font-bold text-slate-500 font-display;
+}
+
+.smart-attendance-71 {
+  @apply hover:bg-slate-50/50;
+}
+
+.smart-attendance-72 {
+  @apply w-7 h-7 rounded-full bg-slate-100 flex items-center justify-center text-xs font-semibold text-slate-600;
+}
+
+.smart-attendance-73 {
+  @apply p-4 bg-amber-50 border border-amber-200 rounded-xl flex items-start gap-3;
+}
+
+.smart-attendance-74 {
+  @apply w-5 h-5 text-amber-600 mt-0.5 shrink-0;
+}
+
+.smart-attendance-75 {
+  @apply text-sm font-semibold text-amber-800;
+}
+
+.smart-attendance-76 {
+  @apply text-xs text-amber-700 mt-0.5;
+}
+
+.smart-attendance-77 {
+  @apply flex items-center justify-between;
+}
+
+.smart-attendance-78 {
+  @apply flex items-center gap-1.5 text-sm font-medium text-slate-500 hover:text-slate-700;
+}

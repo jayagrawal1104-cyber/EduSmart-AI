@@ -1,0 +1,165 @@
+@reference "../../index.css";
+
+.faculty-student-performance-1 {
+  @apply w-4 h-4 text-green-500;
+}
+
+.faculty-student-performance-2 {
+  @apply w-4 h-4 text-red-500;
+}
+
+.faculty-student-performance-3 {
+  @apply w-4 h-4 text-slate-400;
+}
+
+.faculty-student-performance-4 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.faculty-student-performance-5 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.faculty-student-performance-6 {
+  @apply text-slate-500 text-sm mt-1;
+}
+
+.faculty-student-performance-7 {
+  @apply bg-white border border-slate-200 rounded-xl p-5 shadow-sm;
+}
+
+.faculty-student-performance-8 {
+  @apply block text-sm font-medium text-slate-700 mb-2;
+}
+
+.faculty-student-performance-9 {
+  @apply flex flex-wrap gap-2;
+}
+
+.faculty-student-performance-10 {
+  @apply text-xs text-slate-400 mt-3;
+}
+
+.faculty-student-performance-11 {
+  @apply grid grid-cols-2 sm:grid-cols-4 gap-4;
+}
+
+.faculty-student-performance-12 {
+  @apply w-5 h-5;
+}
+
+.faculty-student-performance-13 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-6;
+}
+
+.faculty-student-performance-14 {
+  @apply bg-violet-50 border border-violet-200 rounded-xl p-5 shadow-sm space-y-4;
+}
+
+.faculty-student-performance-15 {
+  @apply flex items-center gap-2;
+}
+
+.faculty-student-performance-16 {
+  @apply w-4 h-4 text-violet-600;
+}
+
+.faculty-student-performance-17 {
+  @apply font-semibold text-violet-900 font-display;
+}
+
+.faculty-student-performance-18 {
+  @apply space-y-3 text-sm text-violet-800;
+}
+
+.faculty-student-performance-19 {
+  @apply flex items-start gap-2;
+}
+
+.faculty-student-performance-20 {
+  @apply mt-0.5 w-2 h-2 rounded-full bg-red-400 shrink-0;
+}
+
+.faculty-student-performance-21 {
+  @apply mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0;
+}
+
+.faculty-student-performance-22 {
+  @apply mt-0.5 w-2 h-2 rounded-full bg-green-400 shrink-0;
+}
+
+.faculty-student-performance-23 {
+  @apply mt-0.5 w-2 h-2 rounded-full bg-violet-400 shrink-0;
+}
+
+.faculty-student-performance-24 {
+  @apply flex flex-wrap gap-2 pt-1;
+}
+
+.faculty-student-performance-25 {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm overflow-hidden;
+}
+
+.faculty-student-performance-26 {
+  @apply px-5 py-4 flex items-center justify-between border-b border-slate-100;
+}
+
+.faculty-student-performance-27 {
+  @apply font-semibold text-slate-900 font-display;
+}
+
+.faculty-student-performance-28 {
+  @apply text-xs text-slate-400 mt-0.5;
+}
+
+.faculty-student-performance-29 {
+  @apply flex items-center gap-1.5 text-xs font-medium border border-slate-200 rounded-lg px-3 py-1.5 text-slate-600 hover:bg-slate-50 transition-colors;
+}
+
+.faculty-student-performance-30 {
+  @apply w-3.5 h-3.5;
+}
+
+.faculty-student-performance-31 {
+  @apply overflow-x-auto;
+}
+
+.faculty-student-performance-32 {
+  @apply w-full text-sm;
+}
+
+.faculty-student-performance-33 {
+  @apply border-b border-slate-100 bg-slate-50;
+}
+
+.faculty-student-performance-34 {
+  @apply text-left px-5 py-3 text-xs font-medium text-slate-500;
+}
+
+.faculty-student-performance-35 {
+  @apply text-left px-4 py-3 text-xs font-medium text-slate-500;
+}
+
+.faculty-student-performance-36 {
+  @apply divide-y divide-slate-50;
+}
+
+.faculty-student-performance-37 {
+  @apply px-5 py-3;
+}
+
+.faculty-student-performance-38 {
+  @apply font-medium text-slate-900;
+}
+
+.faculty-student-performance-39 {
+  @apply text-xs text-slate-400;
+}
+
+.faculty-student-performance-40 {
+  @apply px-4 py-3;
+}
+
+.faculty-student-performance-42 {
+  @apply flex items-center gap-2 flex-wrap mb-2;
+}

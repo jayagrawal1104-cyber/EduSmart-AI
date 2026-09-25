@@ -1,0 +1,105 @@
+@reference "../../index.css";
+
+.faculty-student-login-1 {
+  @apply min-h-screen bg-slate-50 flex flex-col items-center justify-center px-6 py-12;
+}
+
+.faculty-student-login-2 {
+  @apply w-full max-w-md;
+}
+
+.faculty-student-login-3 {
+  @apply flex items-center gap-2 text-sm text-slate-500 hover:text-slate-700 mb-8 transition-colors duration-200;
+}
+
+.faculty-student-login-4 {
+  @apply w-4 h-4;
+}
+
+.faculty-student-login-5 {
+  @apply bg-white rounded-2xl border border-slate-200 p-8 shadow-sm;
+}
+
+.faculty-student-login-6 {
+  @apply flex items-center gap-2 mb-6;
+}
+
+.faculty-student-login-7 {
+  @apply w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center;
+}
+
+.faculty-student-login-8 {
+  @apply w-4 h-4 text-white;
+}
+
+.faculty-student-login-9 {
+  @apply font-display font-bold text-slate-900;
+}
+
+.faculty-student-login-10 {
+  @apply w-3 h-3;
+}
+
+.faculty-student-login-11 {
+  @apply font-display font-bold text-slate-900 text-2xl mb-1;
+}
+
+.faculty-student-login-12 {
+  @apply text-slate-500 text-sm mb-6;
+}
+
+.faculty-student-login-13 {
+  @apply space-y-4;
+}
+
+.faculty-student-login-14 {
+  @apply block text-sm font-medium text-slate-700 mb-1.5;
+}
+
+.faculty-student-login-15 {
+  @apply relative;
+}
+
+.faculty-student-login-16 {
+  @apply absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400;
+}
+
+.faculty-student-login-17 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 pl-10 pr-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.faculty-student-login-18 {
+  @apply flex items-center justify-between mb-1.5;
+}
+
+.faculty-student-login-19 {
+  @apply text-sm font-medium text-slate-700;
+}
+
+.faculty-student-login-20 {
+  @apply text-xs text-blue-600 hover:underline transition-colors duration-200;
+}
+
+.faculty-student-login-21 {
+  @apply w-full border border-slate-200 rounded-lg py-2.5 pl-10 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.faculty-student-login-22 {
+  @apply absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 transition-colors duration-200;
+}
+
+.faculty-student-login-23 {
+  @apply w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin;
+}
+
+.faculty-student-login-24 {
+  @apply mt-5 pt-5 border-t border-slate-100 text-center;
+}
+
+.faculty-student-login-25 {
+  @apply text-xs text-slate-400;
+}
+
+.faculty-student-login-26 {
+  @apply text-xs font-medium text-blue-600 hover:underline mt-0.5 transition-colors duration-200;
+}

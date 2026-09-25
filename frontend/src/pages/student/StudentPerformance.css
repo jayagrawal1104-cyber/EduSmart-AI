@@ -1,0 +1,201 @@
+@reference "../../index.css";
+
+.student-performance-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-8;
+}
+
+.student-performance-2 {
+  @apply flex items-start justify-between gap-4;
+}
+
+.student-performance-3 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.student-performance-4 {
+  @apply text-slate-500 text-sm mt-1;
+}
+
+.student-performance-5 {
+  @apply w-4 h-4;
+}
+
+.student-performance-6 {
+  @apply p-6;
+}
+
+.student-performance-7 {
+  @apply flex flex-col sm:flex-row items-center gap-6;
+}
+
+.student-performance-8 {
+  @apply relative w-36 h-36 shrink-0;
+}
+
+.student-performance-9 {
+  @apply w-full h-full -rotate-90;
+}
+
+.student-performance-10 {
+  @apply absolute inset-0 flex flex-col items-center justify-center;
+}
+
+.student-performance-11 {
+  @apply text-3xl font-bold text-slate-900 font-display;
+}
+
+.student-performance-12 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.student-performance-13 {
+  @apply flex-1;
+}
+
+.student-performance-14 {
+  @apply flex items-center gap-2 mb-1;
+}
+
+.student-performance-15 {
+  @apply text-lg font-bold text-slate-900 font-display;
+}
+
+.student-performance-16 {
+  @apply flex items-center gap-1 text-green-600 text-sm font-medium;
+}
+
+.student-performance-17 {
+  @apply text-sm text-slate-500 mb-4;
+}
+
+.student-performance-18 {
+  @apply grid grid-cols-2 sm:grid-cols-4 gap-3;
+}
+
+.student-performance-19 {
+  @apply w-4 h-4 text-blue-500;
+}
+
+.student-performance-20 {
+  @apply w-4 h-4 text-green-500;
+}
+
+.student-performance-21 {
+  @apply w-4 h-4 text-violet-500;
+}
+
+.student-performance-22 {
+  @apply w-4 h-4 text-amber-500;
+}
+
+.student-performance-23 {
+  @apply bg-slate-50 rounded-xl p-3;
+}
+
+.student-performance-24 {
+  @apply flex items-center gap-1.5 mb-1;
+}
+
+.student-performance-25 {
+  @apply text-xs text-slate-500;
+}
+
+.student-performance-26 {
+  @apply text-lg font-bold text-slate-900;
+}
+
+.student-performance-27 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-6;
+}
+
+.student-performance-28 {
+  @apply p-5;
+}
+
+.student-performance-29 {
+  @apply flex items-center gap-4 mt-2 flex-wrap;
+}
+
+.student-performance-30 {
+  @apply flex items-center gap-1.5;
+}
+
+.student-performance-31 {
+  @apply text-[11px] text-slate-500;
+}
+
+.student-performance-32 {
+  @apply flex items-center gap-4 mt-2;
+}
+
+.student-performance-33 {
+  @apply w-3 h-0.5 bg-blue-600 rounded-full inline-block;
+}
+
+.student-performance-34 {
+  @apply w-3 h-0.5 bg-green-600 rounded-full inline-block;
+}
+
+.student-performance-35 {
+  @apply space-y-3;
+}
+
+.student-performance-36 {
+  @apply flex items-center gap-3;
+}
+
+.student-performance-37 {
+  @apply w-6 h-6 rounded-full bg-green-50 flex items-center justify-center text-xs font-bold text-green-600 shrink-0;
+}
+
+.student-performance-38 {
+  @apply flex justify-between mb-1;
+}
+
+.student-performance-39 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.student-performance-40 {
+  @apply text-sm font-bold text-green-600;
+}
+
+.student-performance-41 {
+  @apply h-1.5 bg-slate-100 rounded-full overflow-hidden;
+}
+
+.student-performance-42 {
+  @apply h-full bg-green-500 rounded-full;
+}
+
+.student-performance-43 {
+  @apply space-y-4;
+}
+
+.student-performance-44 {
+  @apply flex items-center gap-3 mb-2;
+}
+
+.student-performance-45 {
+  @apply w-6 h-6 rounded-full bg-amber-50 flex items-center justify-center shrink-0;
+}
+
+.student-performance-46 {
+  @apply w-3 h-3 text-amber-500;
+}
+
+.student-performance-47 {
+  @apply text-sm font-bold text-amber-600;
+}
+
+.student-performance-48 {
+  @apply h-full bg-amber-400 rounded-full;
+}
+
+.student-performance-49 {
+  @apply text-xs text-slate-500 ml-9;
+}
+
+.student-performance-50 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4;
+}

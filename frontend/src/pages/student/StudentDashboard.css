@@ -1,0 +1,141 @@
+@reference "../../index.css";
+
+.student-dashboard-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-8;
+}
+
+.student-dashboard-2 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.student-dashboard-3 {
+  @apply text-slate-500 mt-1 text-sm;
+}
+
+.student-dashboard-4 {
+  @apply grid grid-cols-2 lg:grid-cols-4 gap-4;
+}
+
+.student-dashboard-5 {
+  @apply w-5 h-5;
+}
+
+.student-dashboard-6 {
+  @apply grid grid-cols-1 lg:grid-cols-3 gap-6;
+}
+
+.student-dashboard-7 {
+  @apply lg:col-span-2 space-y-6;
+}
+
+.student-dashboard-8 {
+  @apply p-5;
+}
+
+.student-dashboard-9 {
+  @apply flex items-center gap-4 mt-2;
+}
+
+.student-dashboard-10 {
+  @apply flex items-center gap-1.5;
+}
+
+.student-dashboard-11 {
+  @apply w-3 h-0.5 bg-blue-600 rounded-full inline-block;
+}
+
+.student-dashboard-12 {
+  @apply text-xs text-slate-500;
+}
+
+.student-dashboard-13 {
+  @apply w-3 h-0.5 bg-green-600 rounded-full inline-block;
+}
+
+.student-dashboard-14 {
+  @apply space-y-3;
+}
+
+.student-dashboard-15 {
+  @apply flex items-start gap-3 p-3 bg-slate-50 rounded-xl border border-slate-100;
+}
+
+.student-dashboard-16 {
+  @apply w-8 h-8 bg-blue-50 rounded-lg flex items-center justify-center shrink-0;
+}
+
+.student-dashboard-17 {
+  @apply w-4 h-4 text-blue-600;
+}
+
+.student-dashboard-18 {
+  @apply flex-1 min-w-0;
+}
+
+.student-dashboard-19 {
+  @apply text-sm font-semibold text-slate-800 truncate;
+}
+
+.student-dashboard-20 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.student-dashboard-21 {
+  @apply flex items-center gap-3 mt-2;
+}
+
+.student-dashboard-22 {
+  @apply shrink-0 text-blue-600 hover:text-blue-700 transition-colors duration-200;
+}
+
+.student-dashboard-23 {
+  @apply w-4 h-4;
+}
+
+.student-dashboard-24 {
+  @apply space-y-6;
+}
+
+.student-dashboard-25 {
+  @apply space-y-2.5;
+}
+
+.student-dashboard-26 {
+  @apply flex items-start gap-3;
+}
+
+.student-dashboard-27 {
+  @apply flex flex-col items-center gap-1 shrink-0 pt-0.5;
+}
+
+.student-dashboard-28 {
+  @apply w-px h-8 bg-slate-100;
+}
+
+.student-dashboard-29 {
+  @apply text-sm font-semibold text-slate-800;
+}
+
+.student-dashboard-30 {
+  @apply flex items-center gap-2 mt-0.5;
+}
+
+.student-dashboard-31 {
+  @apply w-3 h-3 text-slate-400 shrink-0;
+}
+
+.student-dashboard-32 {
+  @apply text-xs text-slate-400;
+}
+
+.student-dashboard-33 {
+  @apply flex items-start gap-2;
+}
+
+.student-dashboard-34 {
+  @apply text-xs text-slate-600 mt-0.5;
+}
+
+.student-dashboard-35 {
+  @apply w-4 h-4 text-violet-500;
+}

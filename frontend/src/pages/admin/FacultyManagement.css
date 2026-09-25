@@ -1,0 +1,153 @@
+@reference "../../index.css";
+
+.faculty-management-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto;
+}
+
+.faculty-management-2 {
+  @apply flex items-start justify-between mb-6;
+}
+
+.faculty-management-3 {
+  @apply text-2xl font-bold text-slate-900;
+}
+
+.faculty-management-4 {
+  @apply text-sm text-slate-500 mt-1;
+}
+
+.faculty-management-5 {
+  @apply flex items-center gap-2;
+}
+
+.faculty-management-6 {
+  @apply grid grid-cols-3 gap-4 mb-6;
+}
+
+.faculty-management-7 {
+  @apply w-5 h-5;
+}
+
+.faculty-management-8 {
+  @apply p-4 mb-5;
+}
+
+.faculty-management-9 {
+  @apply flex flex-wrap gap-3;
+}
+
+.faculty-management-10 {
+  @apply flex-1 min-w-48;
+}
+
+.faculty-management-11 {
+  @apply w-3.5 h-3.5;
+}
+
+.faculty-management-12 {
+  @apply w-48;
+}
+
+.faculty-management-13 {
+  @apply px-5 py-4 border-b border-slate-100;
+}
+
+.faculty-management-14 {
+  @apply text-sm font-semibold text-slate-700;
+}
+
+.faculty-management-15 {
+  @apply hover:bg-slate-50/50 transition-colors;
+}
+
+.faculty-management-16 {
+  @apply py-3 px-4 font-mono text-xs text-slate-500;
+}
+
+.faculty-management-17 {
+  @apply py-3 px-4;
+}
+
+.faculty-management-18 {
+  @apply flex items-center gap-2.5;
+}
+
+.faculty-management-19 {
+  @apply w-9 h-9 rounded-full bg-gradient-to-br from-violet-400 to-blue-500 flex items-center justify-center text-white text-xs font-bold shrink-0;
+}
+
+.faculty-management-20 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.faculty-management-21 {
+  @apply text-xs text-slate-400;
+}
+
+.faculty-management-22 {
+  @apply flex gap-1 mt-0.5 flex-wrap;
+}
+
+.faculty-management-23 {
+  @apply text-[10px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded-full;
+}
+
+.faculty-management-24 {
+  @apply text-[10px] bg-slate-100 text-slate-400 px-1.5 py-0.5 rounded-full;
+}
+
+.faculty-management-25 {
+  @apply py-3 px-4 text-sm text-slate-600;
+}
+
+.faculty-management-26 {
+  @apply py-3 px-4 text-sm font-semibold text-slate-700;
+}
+
+.faculty-management-27 {
+  @apply w-20;
+}
+
+.faculty-management-28 {
+  @apply text-[10px] bg-red-100 text-red-700 px-1.5 py-0.5 rounded-full font-semibold;
+}
+
+.faculty-management-29 {
+  @apply flex items-center gap-1;
+}
+
+.faculty-management-30 {
+  @apply p-1.5 text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors;
+}
+
+.faculty-management-31 {
+  @apply p-1.5 text-slate-400 hover:text-violet-600 hover:bg-violet-50 rounded-lg transition-colors;
+}
+
+.faculty-management-32 {
+  @apply p-1.5 text-slate-400 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors;
+}
+
+.faculty-management-33 {
+  @apply p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors;
+}
+
+.faculty-management-34 {
+  @apply mx-5 mb-4 mt-2 p-3 bg-red-50 border border-red-100 rounded-xl flex items-center gap-3;
+}
+
+.faculty-management-35 {
+  @apply w-7 h-7 bg-red-100 rounded-lg flex items-center justify-center shrink-0;
+}
+
+.faculty-management-36 {
+  @apply w-4 h-4 text-red-600;
+}
+
+.faculty-management-37 {
+  @apply text-sm font-semibold text-red-800;
+}
+
+.faculty-management-38 {
+  @apply text-xs text-red-600;
+}

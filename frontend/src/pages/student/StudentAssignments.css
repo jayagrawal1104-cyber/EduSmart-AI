@@ -1,0 +1,265 @@
+@reference "../../index.css";
+
+.student-assignments-1 {
+  @apply w-4 h-4 text-amber-500;
+}
+
+.student-assignments-2 {
+  @apply w-4 h-4 text-blue-500;
+}
+
+.student-assignments-3 {
+  @apply w-4 h-4 text-green-500;
+}
+
+.student-assignments-4 {
+  @apply w-4 h-4 text-red-500;
+}
+
+.student-assignments-5 {
+  @apply fixed inset-0 z-50 flex items-center justify-center p-4;
+}
+
+.student-assignments-6 {
+  @apply absolute inset-0 bg-black/40;
+}
+
+.student-assignments-7 {
+  @apply relative bg-white rounded-2xl shadow-xl w-full max-w-lg z-10;
+}
+
+.student-assignments-8 {
+  @apply flex items-start justify-between p-6 border-b border-slate-100;
+}
+
+.student-assignments-9 {
+  @apply text-base font-semibold text-slate-900 font-display;
+}
+
+.student-assignments-10 {
+  @apply text-sm text-slate-500 mt-0.5;
+}
+
+.student-assignments-11 {
+  @apply p-1 rounded-lg hover:bg-slate-100 text-slate-400 transition-colors duration-200;
+}
+
+.student-assignments-12 {
+  @apply w-5 h-5;
+}
+
+.student-assignments-13 {
+  @apply p-8 flex flex-col items-center text-center;
+}
+
+.student-assignments-14 {
+  @apply w-14 h-14 bg-green-50 rounded-full flex items-center justify-center mb-4;
+}
+
+.student-assignments-15 {
+  @apply w-7 h-7 text-green-500;
+}
+
+.student-assignments-16 {
+  @apply text-base font-semibold text-slate-900;
+}
+
+.student-assignments-17 {
+  @apply text-sm text-slate-500 mt-2;
+}
+
+.student-assignments-18 {
+  @apply mt-6;
+}
+
+.student-assignments-19 {
+  @apply p-6 space-y-4;
+}
+
+.student-assignments-20 {
+  @apply bg-slate-50 rounded-xl p-4 space-y-2;
+}
+
+.student-assignments-21 {
+  @apply flex justify-between text-sm;
+}
+
+.student-assignments-22 {
+  @apply text-slate-500;
+}
+
+.student-assignments-23 {
+  @apply font-medium text-slate-800;
+}
+
+.student-assignments-24 {
+  @apply w-8 h-8 text-green-500;
+}
+
+.student-assignments-25 {
+  @apply text-sm font-medium text-green-700;
+}
+
+.student-assignments-26 {
+  @apply text-xs text-slate-500 hover:text-red-500 transition-colors duration-200;
+}
+
+.student-assignments-27 {
+  @apply w-8 h-8 text-slate-400;
+}
+
+.student-assignments-28 {
+  @apply text-center;
+}
+
+.student-assignments-29 {
+  @apply text-sm font-medium text-slate-700;
+}
+
+.student-assignments-30 {
+  @apply text-xs text-slate-400 mt-1;
+}
+
+.student-assignments-31 {
+  @apply block text-sm font-medium text-slate-700 mb-1.5;
+}
+
+.student-assignments-32 {
+  @apply w-full border border-slate-200 rounded-lg px-3 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none;
+}
+
+.student-assignments-33 {
+  @apply flex gap-3 pt-1;
+}
+
+.student-assignments-34 {
+  @apply flex-1;
+}
+
+.student-assignments-35 {
+  @apply w-4 h-4;
+}
+
+.student-assignments-36 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.student-assignments-37 {
+  @apply flex items-start justify-between;
+}
+
+.student-assignments-38 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.student-assignments-39 {
+  @apply text-slate-500 text-sm mt-1;
+}
+
+.student-assignments-40 {
+  @apply grid grid-cols-2 lg:grid-cols-4 gap-4;
+}
+
+.student-assignments-41 {
+  @apply p-4;
+}
+
+.student-assignments-42 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.student-assignments-43 {
+  @apply flex gap-1 flex-wrap;
+}
+
+.student-assignments-44 {
+  @apply space-y-4;
+}
+
+.student-assignments-45 {
+  @apply p-5;
+}
+
+.student-assignments-46 {
+  @apply flex items-start gap-4;
+}
+
+.student-assignments-47 {
+  @apply w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center shrink-0;
+}
+
+.student-assignments-48 {
+  @apply w-5 h-5 text-blue-600;
+}
+
+.student-assignments-49 {
+  @apply flex-1 min-w-0;
+}
+
+.student-assignments-50 {
+  @apply flex items-start justify-between gap-3;
+}
+
+.student-assignments-51 {
+  @apply text-sm font-semibold text-slate-900;
+}
+
+.student-assignments-52 {
+  @apply flex items-center gap-2 shrink-0;
+}
+
+.student-assignments-53 {
+  @apply text-xs text-slate-500 mt-2 line-clamp-2;
+}
+
+.student-assignments-54 {
+  @apply flex items-center gap-4 mt-3 flex-wrap;
+}
+
+.student-assignments-55 {
+  @apply w-3 h-3 inline mr-1;
+}
+
+.student-assignments-56 {
+  @apply mt-4;
+}
+
+.student-assignments-57 {
+  @apply w-3.5 h-3.5;
+}
+
+.student-assignments-58 {
+  @apply mt-3;
+}
+
+.student-assignments-59 {
+  @apply text-xs text-blue-600 font-medium;
+}
+
+.student-assignments-60 {
+  @apply w-3.5 h-3.5 inline mr-1;
+}
+
+.student-assignments-61 {
+  @apply inline-flex items-center gap-2 bg-green-50 border border-green-100 rounded-lg px-3 py-1.5;
+}
+
+.student-assignments-62 {
+  @apply w-3.5 h-3.5 text-green-500;
+}
+
+.student-assignments-63 {
+  @apply text-xs font-medium text-green-700;
+}
+
+.student-assignments-64 {
+  @apply p-12 flex flex-col items-center text-center;
+}
+
+.student-assignments-65 {
+  @apply w-10 h-10 text-slate-300 mb-3;
+}
+
+.student-assignments-66 {
+  @apply text-sm font-semibold text-slate-700;
+}

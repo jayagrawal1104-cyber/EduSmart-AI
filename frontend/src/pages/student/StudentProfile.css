@@ -1,0 +1,177 @@
+@reference "../../index.css";
+
+.student-profile-1 {
+  @apply flex items-start gap-3 py-3 border-b border-slate-50 last:border-0;
+}
+
+.student-profile-2 {
+  @apply w-8 h-8 bg-slate-50 rounded-lg flex items-center justify-center shrink-0 text-slate-400 mt-0.5;
+}
+
+.student-profile-3 {
+  @apply flex-1 min-w-0;
+}
+
+.student-profile-4 {
+  @apply text-xs text-slate-400 font-medium;
+}
+
+.student-profile-5 {
+  @apply text-sm text-slate-900 font-medium mt-0.5 break-words;
+}
+
+.student-profile-6 {
+  @apply bg-white border border-slate-200 rounded-xl p-4 shadow-sm;
+}
+
+.student-profile-7 {
+  @apply text-xs text-slate-500 mt-0.5 font-medium;
+}
+
+.student-profile-8 {
+  @apply mt-2;
+}
+
+.student-profile-9 {
+  @apply flex items-center justify-between py-3 border-b border-slate-50 last:border-0;
+}
+
+.student-profile-10 {
+  @apply flex items-center gap-3;
+}
+
+.student-profile-11 {
+  @apply w-8 h-8 bg-slate-50 rounded-lg flex items-center justify-center text-slate-500 shrink-0;
+}
+
+.student-profile-12 {
+  @apply text-sm font-medium text-slate-900;
+}
+
+.student-profile-13 {
+  @apply text-xs text-slate-400;
+}
+
+.student-profile-14 {
+  @apply text-xs font-medium text-blue-600 hover:text-blue-700 shrink-0 ml-4 transition-colors duration-200;
+}
+
+.student-profile-15 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.student-profile-16 {
+  @apply p-6;
+}
+
+.student-profile-17 {
+  @apply flex flex-col sm:flex-row items-start sm:items-center gap-5;
+}
+
+.student-profile-18 {
+  @apply w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center shrink-0 shadow-lg;
+}
+
+.student-profile-19 {
+  @apply text-2xl font-bold text-white font-display;
+}
+
+.student-profile-20 {
+  @apply flex items-start justify-between gap-4 flex-wrap;
+}
+
+.student-profile-21 {
+  @apply text-xl font-bold text-slate-900 font-display;
+}
+
+.student-profile-22 {
+  @apply text-sm text-slate-500 mt-0.5;
+}
+
+.student-profile-23 {
+  @apply flex flex-wrap gap-2 mt-2.5;
+}
+
+.student-profile-24 {
+  @apply w-3.5 h-3.5;
+}
+
+.student-profile-25 {
+  @apply mt-5 pt-5 border-t border-slate-100;
+}
+
+.student-profile-26 {
+  @apply grid grid-cols-1 sm:grid-cols-2 gap-4;
+}
+
+.student-profile-27 {
+  @apply block text-xs font-medium text-slate-600 mb-1;
+}
+
+.student-profile-28 {
+  @apply w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.student-profile-29 {
+  @apply flex gap-3 mt-4;
+}
+
+.student-profile-30 {
+  @apply grid grid-cols-2 lg:grid-cols-4 gap-4;
+}
+
+.student-profile-31 {
+  @apply w-5 h-5;
+}
+
+.student-profile-32 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-6;
+}
+
+.student-profile-33 {
+  @apply p-5;
+}
+
+.student-profile-34 {
+  @apply space-y-0;
+}
+
+.student-profile-35 {
+  @apply text-sm font-bold font-display;
+}
+
+.student-profile-36 {
+  @apply w-4 h-4;
+}
+
+.student-profile-37 {
+  @apply text-xs font-bold text-slate-500;
+}
+
+.student-profile-38 {
+  @apply text-xs font-semibold text-slate-500;
+}
+
+.student-profile-39 {
+  @apply space-y-3;
+}
+
+.student-profile-40 {
+  @apply flex items-center justify-between py-2 border-b border-slate-50 last:border-0;
+}
+
+.student-profile-41 {
+  @apply w-8 h-8 bg-slate-100 rounded-lg flex items-center justify-center shrink-0;
+}
+
+.student-profile-42 {
+  @apply text-xs font-bold text-slate-600;
+}
+
+.student-profile-43 {
+  @apply flex items-center gap-1.5 text-xs text-green-600 font-medium;
+}
+
+.student-profile-44 {
+  @apply text-xs font-medium text-blue-600 hover:text-blue-700 transition-colors duration-200;
+}

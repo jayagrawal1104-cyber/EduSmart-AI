@@ -1,0 +1,185 @@
+@reference "../../index.css";
+
+.student-attendance-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.student-attendance-2 {
+  @apply text-2xl font-bold text-slate-900 font-display;
+}
+
+.student-attendance-3 {
+  @apply text-slate-500 text-sm mt-1;
+}
+
+.student-attendance-4 {
+  @apply grid grid-cols-2 lg:grid-cols-4 gap-4;
+}
+
+.student-attendance-5 {
+  @apply p-4 flex items-center gap-3;
+}
+
+.student-attendance-6 {
+  @apply text-xs text-slate-500;
+}
+
+.student-attendance-7 {
+  @apply bg-red-50 border border-red-200 rounded-xl p-4 flex items-start gap-3;
+}
+
+.student-attendance-8 {
+  @apply w-5 h-5 text-red-500 shrink-0 mt-0.5;
+}
+
+.student-attendance-9 {
+  @apply text-sm font-semibold text-red-800;
+}
+
+.student-attendance-10 {
+  @apply text-sm text-red-700 mt-0.5;
+}
+
+.student-attendance-11 {
+  @apply flex gap-1 bg-slate-100 rounded-xl p-1 w-fit;
+}
+
+.student-attendance-12 {
+  @apply p-6;
+}
+
+.student-attendance-13 {
+  @apply flex flex-col items-center py-8;
+}
+
+.student-attendance-14 {
+  @apply relative w-40 h-40;
+}
+
+.student-attendance-15 {
+  @apply w-full h-full -rotate-90;
+}
+
+.student-attendance-16 {
+  @apply absolute inset-0 flex flex-col items-center justify-center;
+}
+
+.student-attendance-17 {
+  @apply text-3xl font-bold text-slate-900 font-display;
+}
+
+.student-attendance-18 {
+  @apply text-sm text-slate-600 mt-4;
+}
+
+.student-attendance-19 {
+  @apply font-semibold text-slate-800;
+}
+
+.student-attendance-20 {
+  @apply text-xs text-slate-400 mt-1;
+}
+
+.student-attendance-21 {
+  @apply grid grid-cols-3 gap-4 mt-4 pt-4 border-t border-slate-100;
+}
+
+.student-attendance-22 {
+  @apply w-4 h-4 text-green-500;
+}
+
+.student-attendance-23 {
+  @apply w-4 h-4 text-amber-500;
+}
+
+.student-attendance-24 {
+  @apply w-4 h-4 text-red-500;
+}
+
+.student-attendance-25 {
+  @apply flex flex-col items-center gap-1;
+}
+
+.student-attendance-26 {
+  @apply text-xl font-bold text-slate-900;
+}
+
+.student-attendance-27 {
+  @apply overflow-hidden;
+}
+
+.student-attendance-28 {
+  @apply p-5 border-b border-slate-100;
+}
+
+.student-attendance-29 {
+  @apply divide-y divide-slate-50;
+}
+
+.student-attendance-30 {
+  @apply px-5 py-4;
+}
+
+.student-attendance-31 {
+  @apply flex items-start justify-between gap-4 mb-2.5;
+}
+
+.student-attendance-32 {
+  @apply flex items-center gap-2;
+}
+
+.student-attendance-33 {
+  @apply text-sm font-semibold text-slate-800;
+}
+
+.student-attendance-34 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.student-attendance-35 {
+  @apply text-right shrink-0;
+}
+
+.student-attendance-36 {
+  @apply text-xs text-slate-400;
+}
+
+.student-attendance-37 {
+  @apply text-xs text-red-600 mt-1.5;
+}
+
+.student-attendance-38 {
+  @apply p-5;
+}
+
+.student-attendance-39 {
+  @apply flex items-center gap-4 mb-5;
+}
+
+.student-attendance-40 {
+  @apply flex items-center gap-1.5;
+}
+
+.student-attendance-41 {
+  @apply text-xs font-semibold text-slate-500 uppercase tracking-wide mb-3;
+}
+
+.student-attendance-42 {
+  @apply grid grid-cols-7 gap-1 text-center mb-1;
+}
+
+.student-attendance-43 {
+  @apply text-[10px] font-semibold text-slate-400 py-1;
+}
+
+.student-attendance-44 {
+  @apply grid grid-cols-7 gap-1;
+}
+
+.student-attendance-45 {
+  @apply aspect-square rounded flex items-center justify-center text-[10px] text-slate-200 bg-slate-50;
+}
+
+.student-attendance-46 {
+  @apply text-xs font-semibold text-slate-500 uppercase tracking-wide mb-3 mt-6;
+}

@@ -1,0 +1,105 @@
+@reference "../index.css";
+
+.auth-gateway-1 {
+  @apply w-7 h-7;
+}
+
+.auth-gateway-2 {
+  @apply min-h-screen bg-slate-50 flex flex-col;
+}
+
+.auth-gateway-3 {
+  @apply bg-white border-b border-slate-200 px-6 py-4 flex items-center justify-between;
+}
+
+.auth-gateway-4 {
+  @apply flex items-center gap-2 text-slate-500 hover:text-slate-700 text-sm transition-colors duration-200;
+}
+
+.auth-gateway-5 {
+  @apply w-4 h-4;
+}
+
+.auth-gateway-6 {
+  @apply flex items-center gap-2;
+}
+
+.auth-gateway-7 {
+  @apply w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center;
+}
+
+.auth-gateway-8 {
+  @apply w-4 h-4 text-white;
+}
+
+.auth-gateway-9 {
+  @apply font-display font-bold text-slate-900;
+}
+
+.auth-gateway-10 {
+  @apply text-blue-600;
+}
+
+.auth-gateway-11 {
+  @apply w-24;
+}
+
+.auth-gateway-12 {
+  @apply flex-1 flex flex-col items-center justify-center px-6 py-12;
+}
+
+.auth-gateway-13 {
+  @apply w-full max-w-3xl;
+}
+
+.auth-gateway-14 {
+  @apply text-center mb-10;
+}
+
+.auth-gateway-15 {
+  @apply font-display font-bold text-slate-900 text-3xl mb-2;
+}
+
+.auth-gateway-16 {
+  @apply text-slate-500;
+}
+
+.auth-gateway-17 {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-5;
+}
+
+.auth-gateway-18 {
+  @apply font-display font-bold text-slate-900 text-lg mb-1;
+}
+
+.auth-gateway-19 {
+  @apply text-sm text-slate-500 mb-5;
+}
+
+.auth-gateway-20 {
+  @apply mt-10 flex flex-col sm:flex-row items-center justify-center gap-6;
+}
+
+.auth-gateway-21 {
+  @apply text-center;
+}
+
+.auth-gateway-22 {
+  @apply text-sm text-slate-500;
+}
+
+.auth-gateway-23 {
+  @apply text-sm font-semibold text-blue-600 hover:text-blue-700 mt-0.5 transition-colors duration-200;
+}
+
+.auth-gateway-24 {
+  @apply hidden sm:block w-px h-8 bg-slate-200;
+}
+
+.auth-gateway-25 {
+  @apply mt-8 text-center;
+}
+
+.auth-gateway-26 {
+  @apply text-xs text-slate-300 hover:text-slate-400 transition-colors duration-200;
+}

@@ -1,0 +1,137 @@
+@reference "../../index.css";
+
+.admin-assignments-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.admin-assignments-2 {
+  @apply grid grid-cols-2 md:grid-cols-4 gap-4;
+}
+
+.admin-assignments-3 {
+  @apply w-5 h-5;
+}
+
+.admin-assignments-4 {
+  @apply bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex flex-wrap gap-3 items-center;
+}
+
+.admin-assignments-5 {
+  @apply text-xs font-medium text-slate-500;
+}
+
+.admin-assignments-6 {
+  @apply border border-slate-200 rounded-lg px-3 py-1.5 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white;
+}
+
+.admin-assignments-7 {
+  @apply text-xs text-slate-400 ml-auto;
+}
+
+.admin-assignments-8 {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm overflow-hidden;
+}
+
+.admin-assignments-9 {
+  @apply overflow-x-auto;
+}
+
+.admin-assignments-10 {
+  @apply w-full text-sm;
+}
+
+.admin-assignments-11 {
+  @apply border-b border-slate-100 bg-slate-50;
+}
+
+.admin-assignments-12 {
+  @apply text-left py-3 px-4 text-xs font-semibold text-slate-500 uppercase tracking-wide whitespace-nowrap;
+}
+
+.admin-assignments-13 {
+  @apply divide-y divide-slate-50;
+}
+
+.admin-assignments-14 {
+  @apply hover:bg-slate-50 transition-colors;
+}
+
+.admin-assignments-15 {
+  @apply py-3 px-4 font-medium text-slate-900 max-w-[180px] truncate;
+}
+
+.admin-assignments-16 {
+  @apply py-3 px-4 text-slate-600 text-xs;
+}
+
+.admin-assignments-17 {
+  @apply py-3 px-4 text-slate-600 text-xs whitespace-nowrap;
+}
+
+.admin-assignments-18 {
+  @apply py-3 px-4;
+}
+
+.admin-assignments-19 {
+  @apply py-3 px-4 text-slate-700 text-xs;
+}
+
+.admin-assignments-20 {
+  @apply py-3 px-4 font-semibold text-slate-800;
+}
+
+.admin-assignments-21 {
+  @apply p-1.5 hover:bg-blue-50 rounded-lg text-slate-400 hover:text-blue-600;
+}
+
+.admin-assignments-22 {
+  @apply w-3.5 h-3.5;
+}
+
+.admin-assignments-23 {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+}
+
+.admin-assignments-24 {
+  @apply bg-white border border-slate-200 rounded-xl p-5 shadow-sm;
+}
+
+.admin-assignments-25 {
+  @apply flex items-center gap-2 mb-4;
+}
+
+.admin-assignments-26 {
+  @apply p-1.5 bg-amber-50 rounded-lg;
+}
+
+.admin-assignments-27 {
+  @apply w-4 h-4 text-amber-600;
+}
+
+.admin-assignments-28 {
+  @apply text-sm font-semibold text-slate-900;
+}
+
+.admin-assignments-29 {
+  @apply space-y-3;
+}
+
+.admin-assignments-30 {
+  @apply flex items-center justify-between bg-amber-50 border border-amber-100 rounded-xl px-4 py-3;
+}
+
+.admin-assignments-31 {
+  @apply text-sm font-medium text-slate-900;
+}
+
+.admin-assignments-32 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.admin-assignments-33 {
+  @apply text-amber-700 font-medium;
+}
+
+.admin-assignments-34 {
+  @apply text-sm font-semibold text-slate-900 mb-4;
+}

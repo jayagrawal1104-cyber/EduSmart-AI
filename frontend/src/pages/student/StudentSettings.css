@@ -1,0 +1,121 @@
+@reference "../../index.css";
+
+.student-settings-1 {
+  @apply flex items-center justify-between gap-4 py-3;
+}
+
+.student-settings-2 {
+  @apply flex items-start gap-3;
+}
+
+.student-settings-3 {
+  @apply w-9 h-9 rounded-lg bg-slate-100 text-slate-600 flex items-center justify-center shrink-0;
+}
+
+.student-settings-4 {
+  @apply text-sm font-medium text-slate-800;
+}
+
+.student-settings-5 {
+  @apply text-xs text-slate-500 mt-0.5;
+}
+
+.student-settings-6 {
+  @apply fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-slate-900 text-white text-sm font-medium px-4 py-3 rounded-lg shadow-lg;
+}
+
+.student-settings-7 {
+  @apply w-4 h-4 text-green-400;
+}
+
+.student-settings-8 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.student-settings-9 {
+  @apply p-5;
+}
+
+.student-settings-10 {
+  @apply flex items-center gap-2 mb-1;
+}
+
+.student-settings-11 {
+  @apply w-4 h-4 text-blue-600;
+}
+
+.student-settings-12 {
+  @apply text-sm font-semibold text-slate-800;
+}
+
+.student-settings-13 {
+  @apply text-xs text-slate-500 mb-2;
+}
+
+.student-settings-14 {
+  @apply divide-y divide-slate-100;
+}
+
+.student-settings-15 {
+  @apply w-4 h-4;
+}
+
+.student-settings-16 {
+  @apply text-xs text-slate-500 mb-4;
+}
+
+.student-settings-17 {
+  @apply grid sm:grid-cols-2 gap-4 mb-2;
+}
+
+.student-settings-18 {
+  @apply sm:col-span-2;
+}
+
+.student-settings-19 {
+  @apply text-xs text-red-600 mt-1;
+}
+
+.student-settings-20 {
+  @apply sm:col-span-2 flex justify-end;
+}
+
+.student-settings-21 {
+  @apply border-t border-slate-100 pt-1;
+}
+
+.student-settings-22 {
+  @apply grid sm:grid-cols-2 gap-4;
+}
+
+.student-settings-23 {
+  @apply flex flex-wrap gap-3;
+}
+
+.student-settings-24 {
+  @apply mt-5 pt-5 border-t border-slate-100;
+}
+
+.student-settings-25 {
+  @apply flex items-start gap-3 bg-red-50 border border-red-100 rounded-lg p-4;
+}
+
+.student-settings-26 {
+  @apply w-4 h-4 text-red-600 mt-0.5 shrink-0;
+}
+
+.student-settings-27 {
+  @apply flex-1;
+}
+
+.student-settings-28 {
+  @apply text-sm font-semibold text-red-800;
+}
+
+.student-settings-29 {
+  @apply text-xs text-red-600 mt-0.5 mb-3;
+}
+
+.student-settings-30 {
+  @apply flex justify-end;
+}

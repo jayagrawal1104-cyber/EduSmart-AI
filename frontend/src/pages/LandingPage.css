@@ -1,0 +1,701 @@
+@reference "../index.css";
+
+.landing-page-1 {
+  @apply fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200;
+}
+
+.landing-page-2 {
+  @apply max-w-[1600px] mx-auto px-8 lg:px-12 h-16 flex items-center justify-between;
+}
+
+.landing-page-3 {
+  @apply flex items-center gap-2;
+}
+
+.landing-page-4 {
+  @apply w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center shadow-md shadow-blue-600/30;
+}
+
+.landing-page-5 {
+  @apply w-4 h-4 text-white;
+}
+
+.landing-page-6 {
+  @apply font-display font-bold text-slate-900 text-lg tracking-tight;
+}
+
+.landing-page-7 {
+  @apply text-blue-600;
+}
+
+.landing-page-8 {
+  @apply hidden lg:flex items-center gap-3;
+}
+
+.landing-page-9 {
+  @apply text-sm font-medium text-slate-700 hover:text-slate-900 px-3 py-1.5;
+}
+
+.landing-page-10 {
+  @apply bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-medium px-4 py-2 rounded-lg shadow-md shadow-blue-600/25 hover:from-blue-500 hover:to-indigo-500 transition-all;
+}
+
+.landing-page-11 {
+  @apply lg:hidden p-2 text-slate-600;
+}
+
+.landing-page-12 {
+  @apply w-5 h-5;
+}
+
+.landing-page-13 {
+  @apply lg:hidden border-t border-slate-100 bg-white px-6 py-4 space-y-3;
+}
+
+.landing-page-14 {
+  @apply flex gap-3 pt-2;
+}
+
+.landing-page-15 {
+  @apply flex-1 text-sm font-medium border border-slate-200 rounded-lg py-2;
+}
+
+.landing-page-16 {
+  @apply flex-1 text-sm font-medium bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg py-2 shadow-md shadow-blue-600/25;
+}
+
+.landing-page-17 {
+  @apply bg-[linear-gradient(155deg,#0d1b40_0%,#152a5e_55%,#1c2f78_100%)] rounded-2xl p-1 shadow-2xl border border-white/10 w-full max-w-2xl;
+}
+
+.landing-page-18 {
+  @apply bg-[linear-gradient(90deg,#0f2056_0%,#17337a_100%)] rounded-t-xl px-4 py-2 flex items-center justify-between border-b border-white/10;
+}
+
+.landing-page-19 {
+  @apply w-5 h-5 bg-gradient-to-br from-blue-400 to-indigo-500 rounded flex items-center justify-center;
+}
+
+.landing-page-20 {
+  @apply w-3 h-3 text-white;
+}
+
+.landing-page-21 {
+  @apply text-white text-xs font-medium;
+}
+
+.landing-page-22 {
+  @apply w-3.5 h-3.5 text-blue-300;
+}
+
+.landing-page-23 {
+  @apply w-6 h-6 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 flex items-center justify-center text-white text-[10px] font-bold;
+}
+
+.landing-page-24 {
+  @apply bg-slate-50 rounded-b-xl p-4 space-y-3;
+}
+
+.landing-page-25 {
+  @apply grid grid-cols-4 gap-2;
+}
+
+.landing-page-26 {
+  @apply bg-white rounded-lg p-2 border border-slate-100;
+}
+
+.landing-page-27 {
+  @apply text-[11px] font-bold text-slate-900;
+}
+
+.landing-page-28 {
+  @apply text-[9px] text-slate-500;
+}
+
+.landing-page-29 {
+  @apply grid grid-cols-3 gap-2;
+}
+
+.landing-page-30 {
+  @apply col-span-2 bg-white rounded-lg p-3 border border-slate-100;
+}
+
+.landing-page-31 {
+  @apply text-[10px] font-semibold text-slate-700 mb-2;
+}
+
+.landing-page-32 {
+  @apply flex items-end gap-1 h-12;
+}
+
+.landing-page-33 {
+  @apply flex-1 bg-blue-100 rounded-sm relative;
+}
+
+.landing-page-34 {
+  @apply absolute inset-0 bg-gradient-to-t from-blue-700 to-blue-400 rounded-sm;
+}
+
+.landing-page-35 {
+  @apply bg-white rounded-lg p-3 border border-slate-100;
+}
+
+.landing-page-36 {
+  @apply text-[10px] font-semibold text-slate-700 mb-1;
+}
+
+.landing-page-37 {
+  @apply space-y-1 mt-2;
+}
+
+.landing-page-38 {
+  @apply flex items-center gap-1;
+}
+
+.landing-page-39 {
+  @apply text-[8px] text-slate-500 w-5;
+}
+
+.landing-page-40 {
+  @apply flex-1 h-1.5 bg-slate-100 rounded-full;
+}
+
+.landing-page-41 {
+  @apply bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-100 rounded-lg p-2.5 flex items-start gap-2;
+}
+
+.landing-page-42 {
+  @apply w-5 h-5 bg-gradient-to-br from-amber-300 to-orange-400 rounded flex items-center justify-center shrink-0;
+}
+
+.landing-page-43 {
+  @apply w-3 h-3 text-white;
+}
+
+.landing-page-44 {
+  @apply text-[10px] font-semibold text-amber-900;
+}
+
+.landing-page-45 {
+  @apply text-[9px] text-amber-700 mt-0.5;
+}
+
+.landing-page-46 {
+  @apply bg-white rounded-lg border border-slate-100 overflow-hidden;
+}
+
+.landing-page-47 {
+  @apply px-3 py-2 border-b border-slate-50 text-[10px] font-semibold text-slate-600;
+}
+
+.landing-page-48 {
+  @apply divide-y divide-slate-50;
+}
+
+.landing-page-49 {
+  @apply px-3 py-1.5 flex items-center gap-3;
+}
+
+.landing-page-50 {
+  @apply w-5 h-5 bg-slate-100 rounded-full flex items-center justify-center text-[8px] font-bold text-slate-600;
+}
+
+.landing-page-51 {
+  @apply flex-1 text-[10px] font-medium text-slate-800;
+}
+
+.landing-page-52 {
+  @apply text-[9px] text-slate-400;
+}
+
+.landing-page-53 {
+  @apply w-6 h-6;
+}
+
+.landing-page-54 {
+  @apply min-h-screen font-sans;
+  background-image: linear-gradient(-45deg, #ffffff 0%, #f3f7ff 22%, #dce8ff 45%, #93b4fd 72%, #3b6ef7 100%);
+  background-size: 300% 300%;
+  animation: gradientDrift 22s ease infinite;
+}
+
+.landing-page-55 {
+  @apply pt-24 pb-16;
+  background:
+    radial-gradient(58% 55% at 18% 100%, rgba(37, 99, 235, 0.38) 0%, rgba(37, 99, 235, 0) 70%),
+    radial-gradient(55% 60% at 78% 100%, rgba(59, 130, 246, 0.42) 0%, rgba(59, 130, 246, 0) 70%),
+    radial-gradient(50% 50% at 48% 108%, rgba(96, 165, 250, 0.32) 0%, rgba(96, 165, 250, 0) 72%),
+    linear-gradient(to bottom, #ffffff 0%, #ffffff 35%, #f5f8ff 100%);
+}
+
+.landing-page-56 {
+  @apply max-w-[1600px] mx-auto px-8 lg:px-12;
+}
+
+.landing-page-57 {
+  @apply flex flex-col lg:flex-row items-center gap-16;
+}
+
+.landing-page-58 {
+  @apply lg:w-5/12;
+}
+
+.landing-page-59 {
+  @apply inline-flex items-center gap-2 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 text-blue-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-6;
+}
+
+.landing-page-60 {
+  @apply w-3 h-3;
+}
+
+.landing-page-61 {
+  @apply font-display font-bold text-slate-900 leading-[1.12] mb-5;
+}
+
+.landing-page-62 {
+  @apply text-slate-600 text-lg leading-relaxed mb-8;
+}
+
+.landing-page-63 {
+  @apply flex flex-col sm:flex-row gap-3;
+}
+
+.landing-page-64 {
+  @apply inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold px-6 py-3 rounded-xl shadow-lg shadow-blue-600/30 hover:from-blue-500 hover:to-indigo-500 hover:shadow-xl hover:shadow-blue-600/40 transition-all text-sm;
+}
+
+.landing-page-65 {
+  @apply w-4 h-4;
+}
+
+.landing-page-66 {
+  @apply inline-flex items-center justify-center gap-2 border border-slate-200 text-slate-700 font-semibold px-6 py-3 rounded-xl hover:bg-gradient-to-r hover:from-slate-50 hover:to-blue-50 hover:border-blue-100 transition-all text-sm;
+}
+
+.landing-page-67 {
+  @apply lg:w-7/12 flex justify-center;
+}
+
+/* Hero mockup: mouse-tracking 3D tilt + idle float + layered parallax depth,
+   plus floating education stat badges. */
+.hero-mockup-stage {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  perspective: 1600px;
+}
+
+.mockup-idle-float {
+  transform-style: preserve-3d;
+  animation: idleFloat 6s ease-in-out infinite;
+}
+
+.dashboard-mockup-3d {
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+  cursor: pointer;
+  --rx: 0;
+  --ry: 0;
+}
+
+.mockup-layer-sm,
+.mockup-layer-md,
+.mockup-layer-lg {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.mockup-layer-sm {
+  transform: translate3d(calc(var(--rx, 0) * 10px), calc(var(--ry, 0) * -10px), 8px);
+}
+
+.mockup-layer-md {
+  transform: translate3d(calc(var(--rx, 0) * 18px), calc(var(--ry, 0) * -18px), 16px);
+}
+
+.mockup-layer-lg {
+  transform: translate3d(calc(var(--rx, 0) * 26px), calc(var(--ry, 0) * -26px), 26px);
+}
+
+@keyframes idleFloat {
+  0%, 100% { transform: translateY(0px) rotateZ(0deg); }
+  50% { transform: translateY(-10px) rotateZ(0.6deg); }
+}
+
+@media (max-width: 767px) {
+  .mockup-idle-float {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mockup-idle-float {
+    animation: none;
+  }
+  .dashboard-mockup-3d,
+  .mockup-layer-sm,
+  .mockup-layer-md,
+  .mockup-layer-lg {
+    transition: none;
+    transform: none !important;
+  }
+}
+
+.floating-edu-badge {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #ffffff;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 1rem;
+  padding: 0.7rem 1rem;
+  box-shadow: 0 12px 30px -8px rgba(15, 23, 42, 0.25);
+  animation: floatBadge 5s ease-in-out infinite;
+  z-index: 10;
+}
+
+.floating-edu-badge--top {
+  top: -1.25rem;
+  right: 1rem;
+  animation-delay: 0s;
+}
+
+.floating-edu-badge--bottom {
+  bottom: -1.25rem;
+  left: 1rem;
+  animation-delay: 1.2s;
+}
+
+.floating-edu-badge-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.4rem;
+  box-sizing: content-box;
+  border-radius: 0.6rem;
+  background: linear-gradient(135deg, #60a5fa, #4f46e5);
+  color: #ffffff;
+}
+
+.floating-edu-badge-value {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: rgb(15 23 42);
+  line-height: 1.1;
+}
+
+.floating-edu-badge-label {
+  font-size: 0.65rem;
+  color: rgb(100 116 139);
+  white-space: nowrap;
+}
+
+@keyframes floatBadge {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@media (max-width: 767px) {
+  .floating-edu-badge {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floating-edu-badge {
+    animation: none;
+  }
+}
+
+/* Scroll-triggered 3D "unfold" reveal — applied to each section (.scroll-reveal).
+   Starts tilted/angled like a folded device and unfolds flat as it scrolls into view.
+   Replays every time the section enters/leaves the viewport (class is toggled, not one-shot). */
+.scroll-reveal {
+  opacity: 0;
+  transform: perspective(1400px) rotateX(10deg) rotateY(-7deg) translateY(40px) scale(0.96);
+  transform-origin: center bottom;
+  backface-visibility: hidden;
+  transition: transform 0.75s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform, opacity;
+}
+
+.scroll-reveal.is-visible {
+  opacity: 1;
+  transform: perspective(1400px) rotateX(0deg) rotateY(0deg) translateY(0) scale(1);
+}
+
+.landing-page-68 {
+  @apply py-20 bg-[linear-gradient(135deg,#0a1530_0%,#0d1b40_35%,#152a63_70%,#20205c_100%)];
+}
+
+.landing-page-69 {
+  @apply text-center mb-12;
+}
+
+.landing-page-70 {
+  @apply font-display font-bold text-white text-3xl mb-3;
+}
+
+.landing-page-71 {
+  @apply text-slate-400 max-w-xl mx-auto;
+}
+
+.landing-page-72 {
+  @apply flex flex-col lg:flex-row items-center justify-center gap-4;
+}
+
+.landing-page-73 {
+  @apply bg-gradient-to-b from-white/[0.08] to-white/[0.02] border border-white/10 rounded-xl p-5 w-full lg:w-52 backdrop-blur-sm;
+}
+
+.landing-page-74 {
+  @apply text-xs font-semibold text-blue-300 mb-3 uppercase tracking-wide;
+}
+
+.landing-page-75 {
+  @apply space-y-2;
+}
+
+.landing-page-76 {
+  @apply flex items-center gap-2 text-sm text-slate-300;
+}
+
+.landing-page-77 {
+  @apply w-1.5 h-1.5 bg-blue-400 rounded-full;
+}
+
+.landing-page-78 {
+  @apply w-5 h-5 text-blue-400 hidden lg:block shrink-0;
+}
+
+.landing-page-79 {
+  @apply bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl p-5 w-full lg:w-48 text-center shadow-lg shadow-blue-900/40;
+}
+
+.landing-page-80 {
+  @apply w-8 h-8 text-white mx-auto mb-2;
+}
+
+.landing-page-81 {
+  @apply text-sm font-bold text-white;
+}
+
+.landing-page-82 {
+  @apply text-xs text-blue-200 mt-1;
+}
+
+.landing-page-83 {
+  @apply grid grid-cols-1 gap-3 w-full lg:w-64;
+}
+
+.landing-page-84 {
+  @apply bg-gradient-to-b from-white/[0.08] to-white/[0.02] border border-white/10 rounded-lg p-3 flex items-start gap-3 backdrop-blur-sm;
+}
+
+.landing-page-85 {
+  @apply text-xs text-slate-300;
+}
+
+.landing-page-86 {
+  @apply mt-10 text-center;
+}
+
+.landing-page-87 {
+  @apply inline-flex items-center gap-2 text-sm font-medium text-blue-300;
+}
+
+.landing-page-88 {
+  @apply w-2 h-2 bg-blue-400 rounded-full animate-pulse;
+}
+
+.landing-page-89 {
+  @apply py-20 bg-transparent;
+}
+.landing-page-90 {
+  @apply font-display font-bold text-slate-900 text-3xl mb-3;
+}
+
+.landing-page-91 {
+  @apply text-slate-500 max-w-xl mx-auto;
+}
+
+.landing-page-92 {
+  @apply grid grid-cols-1 lg:grid-cols-3 gap-6;
+}
+
+.landing-page-93 {
+  @apply font-display font-bold text-slate-900 text-xl mb-2;
+}
+
+.landing-page-94 {
+  @apply space-y-2.5 mt-4;
+}
+
+.landing-page-95 {
+  @apply flex items-start gap-2 text-sm text-slate-700;
+}
+
+.landing-page-96 {
+  @apply w-4 h-4 text-green-500 shrink-0 mt-0.5;
+}
+
+.landing-page-97 {
+  @apply py-20 bg-transparent;
+}
+
+.landing-page-98 {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.landing-page-99 {
+  @apply bg-gradient-to-b from-white to-slate-50/50 rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-blue-200 transition-all duration-300;
+}
+
+.landing-page-100 {
+  @apply font-semibold text-slate-900 mb-2;
+}
+
+.landing-page-101 {
+  @apply text-sm text-slate-500 leading-relaxed;
+}
+
+.landing-page-102 {
+  @apply py-16 bg-transparent border-y border-white/40;
+}
+
+.landing-page-103 {
+  @apply max-w-[1600px] mx-auto px-8 lg:px-12 text-center;
+}
+
+.landing-page-104 {
+  @apply text-sm font-semibold text-slate-400 uppercase tracking-widest mb-6;
+}
+
+.landing-page-105 {
+  @apply flex flex-wrap justify-center gap-4;
+}
+
+.landing-page-106 {
+  @apply flex items-center gap-2 border border-slate-200 rounded-full px-4 py-2 text-sm text-slate-700 bg-gradient-to-r from-slate-50 to-white hover:from-blue-50 hover:to-indigo-50 hover:border-blue-100 transition-all;
+}
+
+.landing-page-107 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-12 items-center;
+}
+
+.landing-page-108 {
+  @apply inline-flex items-center gap-2 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-100 text-green-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-5;
+}
+
+.landing-page-109 {
+  @apply font-display font-bold text-slate-900 text-3xl mb-5;
+}
+
+.landing-page-110 {
+  @apply space-y-4;
+}
+
+.landing-page-111 {
+  @apply flex items-start gap-3;
+}
+
+.landing-page-112 {
+  @apply p-2 bg-gradient-to-br from-green-100 to-emerald-100 text-green-600 rounded-lg shrink-0 mt-0.5;
+}
+
+.landing-page-113 {
+  @apply text-sm font-semibold text-slate-900;
+}
+
+.landing-page-114 {
+  @apply text-sm text-slate-500 mt-0.5;
+}
+
+.landing-page-115 {
+  @apply bg-gradient-to-b from-white to-slate-50/60 rounded-2xl border border-slate-200 p-8 shadow-sm;
+}
+
+.landing-page-116 {
+  @apply text-center mb-6;
+}
+
+.landing-page-117 {
+  @apply w-16 h-16 bg-gradient-to-br from-green-400 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg shadow-green-500/30;
+}
+
+.landing-page-118 {
+  @apply w-8 h-8 text-white;
+}
+
+.landing-page-119 {
+  @apply text-sm font-semibold text-green-700;
+}
+
+.landing-page-120 {
+  @apply space-y-3;
+}
+
+.landing-page-121 {
+  @apply flex items-center gap-2 text-sm text-slate-700;
+}
+
+.landing-page-122 {
+  @apply w-4 h-4 text-green-500 shrink-0;
+}
+
+.landing-page-123 {
+  @apply max-w-3xl mx-auto px-6 text-center;
+}
+
+.landing-page-124 {
+  @apply font-display font-bold text-white text-4xl mb-4;
+}
+
+.landing-page-125 {
+  @apply text-slate-300 text-lg mb-8;
+}
+
+.landing-page-126 {
+  @apply flex flex-col sm:flex-row gap-3 justify-center;
+}
+
+.landing-page-127 {
+  @apply inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold px-8 py-3.5 rounded-xl shadow-lg shadow-blue-500/30 hover:from-blue-400 hover:to-indigo-400 hover:shadow-xl transition-all text-sm;
+}
+
+.landing-page-128 {
+  @apply inline-flex items-center justify-center gap-2 border border-white/20 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-white/10 text-sm;
+}
+
+.landing-page-129 {
+  @apply border-t border-white/40 py-10;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.landing-page-130 {
+  @apply flex flex-col md:flex-row items-center justify-between gap-4;
+}
+
+.landing-page-131 {
+  @apply w-7 h-7 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center;
+}
+
+.landing-page-132 {
+  @apply font-display font-bold text-slate-900;
+}
+
+.landing-page-133 {
+  @apply text-sm text-slate-400;
+}
+
+.landing-page-134 {
+  @apply flex gap-4;
+}
+
+.landing-page-135 {
+  @apply text-sm text-slate-500 hover:text-slate-700;
+}

@@ -1,0 +1,125 @@
+@reference "../../index.css";
+
+.faculty-profile-1 {
+  @apply p-6 lg:p-8 max-w-[1600px] mx-auto space-y-6;
+}
+
+.faculty-profile-2 {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm overflow-hidden;
+}
+
+.faculty-profile-3 {
+  @apply h-24 bg-gradient-to-r from-violet-600 to-violet-800;
+}
+
+.faculty-profile-4 {
+  @apply px-6 pb-6;
+}
+
+.faculty-profile-5 {
+  @apply flex items-end justify-between -mt-10 mb-4;
+}
+
+.faculty-profile-6 {
+  @apply w-20 h-20 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-700 flex items-center justify-center text-white text-2xl font-bold shadow-lg border-4 border-white font-display;
+}
+
+.faculty-profile-7 {
+  @apply flex items-center gap-1.5 text-sm font-medium border border-slate-200 rounded-lg px-4 py-2 text-slate-600 hover:bg-slate-50 transition-colors mb-1;
+}
+
+.faculty-profile-8 {
+  @apply w-4 h-4;
+}
+
+.faculty-profile-9 {
+  @apply flex flex-wrap items-start gap-3;
+}
+
+.faculty-profile-10 {
+  @apply text-xl font-bold text-slate-900 font-display;
+}
+
+.faculty-profile-11 {
+  @apply text-slate-500 text-sm;
+}
+
+.faculty-profile-12 {
+  @apply flex flex-wrap gap-2 mt-1;
+}
+
+.faculty-profile-13 {
+  @apply grid grid-cols-2 sm:grid-cols-4 gap-4;
+}
+
+.faculty-profile-14 {
+  @apply w-5 h-5;
+}
+
+.faculty-profile-15 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-6;
+}
+
+.faculty-profile-16 {
+  @apply bg-white border border-slate-200 rounded-xl p-5 shadow-sm;
+}
+
+.faculty-profile-17 {
+  @apply space-y-4;
+}
+
+.faculty-profile-18 {
+  @apply flex items-start gap-3;
+}
+
+.faculty-profile-19 {
+  @apply p-2 rounded-lg bg-slate-50 text-slate-400 shrink-0;
+}
+
+.faculty-profile-20 {
+  @apply text-xs text-slate-400;
+}
+
+.faculty-profile-21 {
+  @apply border border-slate-200 rounded-lg px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400 w-full mt-0.5;
+}
+
+.faculty-profile-22 {
+  @apply text-sm font-medium text-slate-900;
+}
+
+.faculty-profile-23 {
+  @apply relative border-l border-slate-200 space-y-5 ml-2;
+}
+
+.faculty-profile-24 {
+  @apply ml-5;
+}
+
+.faculty-profile-25 {
+  @apply w-3 h-3;
+}
+
+.faculty-profile-26 {
+  @apply text-sm text-slate-900 font-medium;
+}
+
+.faculty-profile-27 {
+  @apply text-xs text-slate-400 mt-0.5;
+}
+
+.faculty-profile-28 {
+  @apply space-y-3;
+}
+
+.faculty-profile-29 {
+  @apply w-5 h-5 mt-0.5 shrink-0;
+}
+
+.faculty-profile-30 {
+  @apply font-semibold text-sm;
+}
+
+.faculty-profile-31 {
+  @apply text-xs opacity-80 mt-0.5;
+}
